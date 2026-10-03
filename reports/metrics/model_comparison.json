@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Logistic regression on 24x24 pixels",
+    "size": 24,
+    "params": 12103,
+    "val_macro_f1": 0.7793904375131148,
+    "val_accuracy": 0.797752808988764,
+    "epochs_run": null,
+    "train_minutes": 0.31,
+    "train_energy_wh": 0.064
+  },
+  {
+    "name": "CNN, 64x64 input",
+    "size": 64,
+    "params": 1176935,
+    "val_macro_f1": 0.991502197391301,
+    "val_accuracy": 0.9902621722846442,
+    "epochs_run": 25,
+    "train_minutes": 40.3,
+    "train_energy_wh": 10.76
+  },
+  {
+    "name": "CNN, 112x112 input",
+    "size": 112,
+    "params": 663247,
+    "val_macro_f1": 0.9906509202831276,
+    "val_accuracy": 0.9887640449438202,
+    "epochs_run": 25,
+    "train_minutes": 75.6,
+    "train_energy_wh": 20.77
+  }
+]

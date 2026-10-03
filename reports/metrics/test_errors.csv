@@ -1,0 +1,45 @@
+file,true,predicted,confidence,subtype
+BA_831290.jpg,basophil,immature_granulocyte,0.7418129,Basophil
+BNE_141509.jpg,neutrophil,immature_granulocyte,0.9628792,Band neutrophil
+BNE_259972.jpg,neutrophil,immature_granulocyte,0.9463615,Band neutrophil
+BNE_516401.jpg,neutrophil,immature_granulocyte,0.98275375,Band neutrophil
+BNE_53927.jpg,neutrophil,immature_granulocyte,0.6587291,Band neutrophil
+BNE_546147.jpg,neutrophil,immature_granulocyte,0.71766865,Band neutrophil
+BNE_573596.jpg,neutrophil,erythroblast,0.7316325,Band neutrophil
+BNE_697892.jpg,neutrophil,immature_granulocyte,0.8255963,Band neutrophil
+BNE_766773.jpg,neutrophil,immature_granulocyte,0.7120327,Band neutrophil
+BNE_840660.jpg,neutrophil,immature_granulocyte,0.8169939,Band neutrophil
+BNE_863887.jpg,neutrophil,immature_granulocyte,0.8769121,Band neutrophil
+BNE_927001.jpg,neutrophil,immature_granulocyte,0.5557269,Band neutrophil
+ERB_519370.jpg,erythroblast,lymphocyte,0.888803,Erythroblast
+LY_295331.jpg,lymphocyte,erythroblast,0.6448179,Lymphocyte
+LY_426695.jpg,lymphocyte,immature_granulocyte,0.6866053,Lymphocyte
+MMY_104597.jpg,immature_granulocyte,monocyte,0.6594897,Metamyelocyte
+MMY_115039.jpg,immature_granulocyte,neutrophil,0.67039734,Metamyelocyte
+MO_119666.jpg,monocyte,immature_granulocyte,0.53400964,Monocyte
+MO_332923.jpg,monocyte,lymphocyte,0.99999654,Monocyte
+MO_526325.jpg,monocyte,immature_granulocyte,0.6976933,Monocyte
+MO_830074.jpg,monocyte,immature_granulocyte,0.81998533,Monocyte
+MO_902874.jpg,monocyte,lymphocyte,0.8684573,Monocyte
+MY_317113.jpg,immature_granulocyte,neutrophil,0.5985674,Myelocyte
+MY_756897.jpg,immature_granulocyte,basophil,0.7648508,Myelocyte
+PMY_132518.jpg,immature_granulocyte,monocyte,0.9886262,Promyelocyte
+PMY_191869.jpg,immature_granulocyte,monocyte,0.8380093,Promyelocyte
+SNE_182145.jpg,neutrophil,immature_granulocyte,0.56361336,Segmented neutrophil
+SNE_375899.jpg,neutrophil,basophil,0.6594869,Segmented neutrophil
+SNE_946577.jpg,neutrophil,immature_granulocyte,0.6928368,Segmented neutrophil
+BA_499861.jpg,basophil,immature_granulocyte,0.4972512,Basophil
+BNE_153786.jpg,neutrophil,immature_granulocyte,0.74134743,Band neutrophil
+MMY_104412.jpg,immature_granulocyte,monocyte,0.9200465,Metamyelocyte
+MMY_859004.jpg,immature_granulocyte,neutrophil,0.73638296,Metamyelocyte
+MY_913448.jpg,immature_granulocyte,erythroblast,0.8675245,Myelocyte
+BNE_345873.jpg,neutrophil,immature_granulocyte,0.5732059,Band neutrophil
+BNE_352014.jpg,neutrophil,immature_granulocyte,0.8552251,Band neutrophil
+BNE_499158.jpg,neutrophil,immature_granulocyte,0.9944735,Band neutrophil
+BNE_623604.jpg,neutrophil,immature_granulocyte,0.921229,Band neutrophil
+BNE_968691.jpg,neutrophil,immature_granulocyte,0.71666634,Band neutrophil
+ERB_948676.jpg,erythroblast,monocyte,0.9256393,Erythroblast
+MMY_672616.jpg,immature_granulocyte,neutrophil,0.7843482,Metamyelocyte
+MY_481948.jpg,immature_granulocyte,basophil,0.79290855,Myelocyte
+MY_834121.jpg,immature_granulocyte,erythroblast,0.9999727,Myelocyte
+PMY_471011.jpg,immature_granulocyte,monocyte,0.9985172,Promyelocyte

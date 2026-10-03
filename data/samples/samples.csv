@@ -1,0 +1,22 @@
+file,class,subtype,source
+basophil_1.jpg,basophil,Basophil,BA_190505.jpg
+basophil_2.jpg,basophil,Basophil,BA_569632.jpg
+basophil_3.jpg,basophil,Basophil,BA_515577.jpg
+eosinophil_1.jpg,eosinophil,Eosinophil,EO_418150.jpg
+eosinophil_2.jpg,eosinophil,Eosinophil,EO_742968.jpg
+eosinophil_3.jpg,eosinophil,Eosinophil,EO_336192.jpg
+erythroblast_1.jpg,erythroblast,Erythroblast,ERB_242349.jpg
+erythroblast_2.jpg,erythroblast,Erythroblast,ERB_397552.jpg
+erythroblast_3.jpg,erythroblast,Erythroblast,ERB_406954.jpg
+immature_granulocyte_1.jpg,immature_granulocyte,Myelocyte,MY_342473.jpg
+immature_granulocyte_2.jpg,immature_granulocyte,Metamyelocyte,MMY_486684.jpg
+immature_granulocyte_3.jpg,immature_granulocyte,Metamyelocyte,MMY_43640.jpg
+lymphocyte_1.jpg,lymphocyte,Lymphocyte,LY_776538.jpg
+lymphocyte_2.jpg,lymphocyte,Lymphocyte,LY_488198.jpg
+lymphocyte_3.jpg,lymphocyte,Lymphocyte,LY_171934.jpg
+monocyte_1.jpg,monocyte,Monocyte,MO_262163.jpg
+monocyte_2.jpg,monocyte,Monocyte,MO_7582.jpg
+monocyte_3.jpg,monocyte,Monocyte,MO_560988.jpg
+neutrophil_1.jpg,neutrophil,Band neutrophil,BNE_509829.jpg
+neutrophil_2.jpg,neutrophil,Segmented neutrophil,SNE_56069.jpg
+neutrophil_3.jpg,neutrophil,Band neutrophil,BNE_747210.jpg

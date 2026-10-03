@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+# Large or re-creatable data. The raw download and processed arrays are rebuilt by scripts/prepare_data.py.
+data/raw/
+data/processed/
+models/candidates/*.keras
+emissions.csv
+.DS_Store

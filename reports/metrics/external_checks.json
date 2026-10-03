@@ -1,0 +1,47 @@
+{
+  "checks": {
+    "bccd_white_cells": {
+      "n": 358,
+      "flagged_unfamiliar": 0.9972067039106145,
+      "median_confidence": 0.9985902309417725,
+      "share_confidence_above_90": 0.8296089385474861,
+      "flagged_unfamiliar_or_low_confidence": 0.9972067039106145,
+      "median_distance": 40.43931579589844,
+      "auroc_vs_pbc_test": 0.9990643661656385
+    },
+    "bccd_red_cells_only": {
+      "n": 150,
+      "flagged_unfamiliar": 1.0,
+      "median_confidence": 0.9998990893363953,
+      "share_confidence_above_90": 1.0,
+      "flagged_unfamiliar_or_low_confidence": 1.0,
+      "median_distance": 51.324615478515625
+    },
+    "random_noise": {
+      "n": 100,
+      "flagged_unfamiliar": 1.0,
+      "median_confidence": 0.9999949932098389,
+      "share_confidence_above_90": 1.0,
+      "flagged_unfamiliar_or_low_confidence": 1.0,
+      "median_distance": 187.61141967773438
+    },
+    "blank_fields": {
+      "n": 50,
+      "flagged_unfamiliar": 1.0,
+      "median_confidence": 0.9997366666793823,
+      "share_confidence_above_90": 0.98,
+      "flagged_unfamiliar_or_low_confidence": 1.0,
+      "median_distance": 69.73623657226562
+    },
+    "pbc_test_in_distribution": {
+      "n": 2669,
+      "flagged_unfamiliar": 0.011240164855751217
+    }
+  },
+  "bccd_predicted_classes": {
+    "eosinophil": 2,
+    "erythroblast": 50,
+    "immature_granulocyte": 302,
+    "monocyte": 4
+  }
+}

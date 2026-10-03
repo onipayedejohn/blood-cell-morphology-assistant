@@ -1,0 +1,14 @@
+{
+  "temperature": 0.9169033619208583,
+  "confidence_threshold": 0.8069810271263123,
+  "review_budget": 0.02,
+  "ood_threshold": 25.064233779907227,
+  "val_accepted_coverage": 0.9797752808988764,
+  "val_accepted_accuracy": 0.9938837920489296,
+  "first_rule_replaced": {
+    "rule": "lowest confidence from 0.40 upward with accepted validation accuracy >= 0.99",
+    "threshold": 0.4,
+    "validation_coverage": 1.0,
+    "test_effect": "held back no test cells; all 30 held-back cells came from the unfamiliar-image check, and 42 of 44 test errors were marked Confident"
+  }
+}

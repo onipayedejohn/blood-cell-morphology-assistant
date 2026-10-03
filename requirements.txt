@@ -1,0 +1,7 @@
+# What the deployed app needs. TensorFlow is not required: the app runs the ONNX export.
+streamlit==1.64.0
+onnxruntime==1.25.0
+numpy==2.4.4
+pandas==3.0.2
+pillow==12.2.0
+altair==6.3.0

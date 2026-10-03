@@ -1,0 +1,5 @@
+file,label,class,note
+other_lab_white_cell_1.jpg,White cell from another lab (1),,"From the BCCD dataset: a different lab, stain and camera. The subtype is not labeled."
+other_lab_white_cell_2.jpg,White cell from another lab (2),,"From the BCCD dataset: a different lab, stain and camera. The subtype is not labeled."
+red_cells_only.jpg,"Red cells only, no white cell",,A BCCD field with red cells and no white cell. None of the seven classes fits.
+random_noise.png,Random noise,,Pure noise. The model will still pick a class; the status line should warn you.

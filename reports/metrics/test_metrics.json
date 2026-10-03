@@ -1,0 +1,360 @@
+{
+  "n": 2669,
+  "accuracy": 0.9835144248782316,
+  "accuracy_ci": [
+    0.9782690146122143,
+    0.9883851629823904
+  ],
+  "balanced_accuracy": 0.9853536479110229,
+  "balanced_accuracy_ci": [
+    0.9802670188545475,
+    0.9898660167629693
+  ],
+  "macro_f1": 0.9840405424643317,
+  "macro_f1_ci": [
+    0.9788526694901436,
+    0.9888317157761368
+  ],
+  "ece_uncalibrated": 0.004223662163711906,
+  "ece_calibrated": 0.004731231400831747,
+  "per_class": [
+    {
+      "class": "basophil",
+      "precision": 0.986046511627907,
+      "recall": 0.9906542056074766,
+      "f1": 0.9883449883449883,
+      "support": 214
+    },
+    {
+      "class": "eosinophil",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 587
+    },
+    {
+      "class": "erythroblast",
+      "precision": 0.9786096256684492,
+      "recall": 0.9891891891891892,
+      "f1": 0.9838709677419355,
+      "support": 185
+    },
+    {
+      "class": "immature_granulocyte",
+      "precision": 0.9562841530054644,
+      "recall": 0.9758364312267658,
+      "f1": 0.9659613615455381,
+      "support": 538
+    },
+    {
+      "class": "lymphocyte",
+      "precision": 0.9871244635193133,
+      "recall": 0.9913793103448276,
+      "f1": 0.989247311827957,
+      "support": 232
+    },
+    {
+      "class": "monocyte",
+      "precision": 0.978021978021978,
+      "recall": 0.9816176470588235,
+      "f1": 0.9798165137614679,
+      "support": 272
+    },
+    {
+      "class": "neutrophil",
+      "precision": 0.9936,
+      "recall": 0.968798751950078,
+      "f1": 0.981042654028436,
+      "support": 641
+    }
+  ],
+  "confusion_matrix": [
+    [
+      212,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      587,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      183,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      2,
+      0,
+      2,
+      525,
+      0,
+      5,
+      4
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      230,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      2,
+      267,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      18,
+      0,
+      0,
+      621
+    ]
+  ],
+  "reliability": [
+    {
+      "bin_low": 0.4,
+      "bin_high": 0.4666666666666667,
+      "n": 1,
+      "mean_confidence": 0.43820318579673767,
+      "accuracy": 1.0
+    },
+    {
+      "bin_low": 0.4666666666666667,
+      "bin_high": 0.5333333333333333,
+      "n": 6,
+      "mean_confidence": 0.5169758200645447,
+      "accuracy": 0.8333333333333334
+    },
+    {
+      "bin_low": 0.5333333333333333,
+      "bin_high": 0.6,
+      "n": 10,
+      "mean_confidence": 0.5640243887901306,
+      "accuracy": 0.5
+    },
+    {
+      "bin_low": 0.6,
+      "bin_high": 0.6666666666666666,
+      "n": 14,
+      "mean_confidence": 0.6404406428337097,
+      "accuracy": 0.7142857142857143
+    },
+    {
+      "bin_low": 0.6666666666666666,
+      "bin_high": 0.7333333333333333,
+      "n": 20,
+      "mean_confidence": 0.6954218745231628,
+      "accuracy": 0.6
+    },
+    {
+      "bin_low": 0.7333333333333333,
+      "bin_high": 0.8,
+      "n": 18,
+      "mean_confidence": 0.7657864093780518,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "bin_low": 0.8,
+      "bin_high": 0.8666666666666667,
+      "n": 26,
+      "mean_confidence": 0.8408908843994141,
+      "accuracy": 0.8076923076923077
+    },
+    {
+      "bin_low": 0.8666666666666667,
+      "bin_high": 0.9333333333333333,
+      "n": 52,
+      "mean_confidence": 0.9032960534095764,
+      "accuracy": 0.8653846153846154
+    },
+    {
+      "bin_low": 0.9333333333333333,
+      "bin_high": 1.0,
+      "n": 2522,
+      "mean_confidence": 0.9976076483726501,
+      "accuracy": 0.9968279143536876
+    }
+  ],
+  "subtypes": [
+    {
+      "subtype": "Band neutrophil",
+      "n": 323,
+      "recall": 0.9473684210526315,
+      "most_common_error": "immature_granulocyte"
+    },
+    {
+      "subtype": "Basophil",
+      "n": 214,
+      "recall": 0.9906542056074766,
+      "most_common_error": "immature_granulocyte"
+    },
+    {
+      "subtype": "Eosinophil",
+      "n": 587,
+      "recall": 1.0,
+      "most_common_error": null
+    },
+    {
+      "subtype": "Erythroblast",
+      "n": 185,
+      "recall": 0.9891891891891892,
+      "most_common_error": "lymphocyte"
+    },
+    {
+      "subtype": "Immature granulocyte (unspecified)",
+      "n": 26,
+      "recall": 1.0,
+      "most_common_error": null
+    },
+    {
+      "subtype": "Lymphocyte",
+      "n": 232,
+      "recall": 0.9913793103448276,
+      "most_common_error": "erythroblast"
+    },
+    {
+      "subtype": "Metamyelocyte",
+      "n": 200,
+      "recall": 0.975,
+      "most_common_error": "neutrophil"
+    },
+    {
+      "subtype": "Monocyte",
+      "n": 272,
+      "recall": 0.9816176470588235,
+      "most_common_error": "immature_granulocyte"
+    },
+    {
+      "subtype": "Myelocyte",
+      "n": 222,
+      "recall": 0.9774774774774775,
+      "most_common_error": "basophil"
+    },
+    {
+      "subtype": "Neutrophil (unspecified)",
+      "n": 13,
+      "recall": 1.0,
+      "most_common_error": null
+    },
+    {
+      "subtype": "Promyelocyte",
+      "n": 90,
+      "recall": 0.9666666666666667,
+      "most_common_error": "monocyte"
+    },
+    {
+      "subtype": "Segmented neutrophil",
+      "n": 305,
+      "recall": 0.9901639344262295,
+      "most_common_error": "immature_granulocyte"
+    }
+  ],
+  "selective": {
+    "confidence_threshold": 0.8069810271263123,
+    "coverage": 0.9632821281378794,
+    "accuracy_on_accepted": 0.9926098794243485,
+    "accuracy_on_held_back": 0.7448979591836735,
+    "held_back": 98,
+    "held_by_confidence": 70,
+    "held_by_unfamiliar": 30,
+    "errors": 44,
+    "errors_held_back": 25,
+    "errors_marked_confident": 19,
+    "errors_marked_confident_above_90": 10,
+    "curve": [
+      {
+        "threshold": 0.3,
+        "coverage": 1.0,
+        "accuracy": 0.9835144248782316
+      },
+      {
+        "threshold": 0.35,
+        "coverage": 1.0,
+        "accuracy": 0.9835144248782316
+      },
+      {
+        "threshold": 0.4,
+        "coverage": 1.0,
+        "accuracy": 0.9835144248782316
+      },
+      {
+        "threshold": 0.45,
+        "coverage": 0.9996253278381416,
+        "accuracy": 0.9835082458770614
+      },
+      {
+        "threshold": 0.5,
+        "coverage": 0.9992506556762832,
+        "accuracy": 0.9838770153730784
+      },
+      {
+        "threshold": 0.55,
+        "coverage": 0.9966279505432747,
+        "accuracy": 0.9842105263157894
+      },
+      {
+        "threshold": 0.6,
+        "coverage": 0.9936305732484076,
+        "accuracy": 0.9856711915535445
+      },
+      {
+        "threshold": 0.65,
+        "coverage": 0.9902585237916823,
+        "accuracy": 0.9860007567158532
+      },
+      {
+        "threshold": 0.7,
+        "coverage": 0.9838890970400899,
+        "accuracy": 0.9885757806549885
+      },
+      {
+        "threshold": 0.75,
+        "coverage": 0.979018358935931,
+        "accuracy": 0.9911978568694987
+      },
+      {
+        "threshold": 0.8,
+        "coverage": 0.9741476208317722,
+        "accuracy": 0.9923076923076923
+      },
+      {
+        "threshold": 0.85,
+        "coverage": 0.9681528662420382,
+        "accuracy": 0.9938080495356038
+      },
+      {
+        "threshold": 0.9,
+        "coverage": 0.956912701386287,
+        "accuracy": 0.9956930305403289
+      },
+      {
+        "threshold": 0.95,
+        "coverage": 0.9359310603222181,
+        "accuracy": 0.9971977582065652
+      }
+    ]
+  }
+}

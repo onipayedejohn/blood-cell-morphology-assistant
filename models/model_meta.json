@@ -1,0 +1,45 @@
+{
+  "classes": [
+    "basophil",
+    "eosinophil",
+    "erythroblast",
+    "immature_granulocyte",
+    "lymphocyte",
+    "monocyte",
+    "neutrophil"
+  ],
+  "input_size": 64,
+  "temperature": 0.9169033619208583,
+  "confidence_threshold": 0.8069810271263123,
+  "ood_threshold": 25.064233779907227,
+  "selection": {
+    "rule": "higher validation macro-F1; within 0.005 the cheaper 64 px model wins",
+    "reason": "64 px scored +0.0009 macro-F1 against 112 px on validation, within the 0.005 tie margin, so the 64 px model was kept: it needs about 40% less computation per image (211 vs 366 million multiply-adds) and half the training energy"
+  },
+  "test_summary": {
+    "n": 2669,
+    "accuracy": 0.9835144248782316,
+    "accuracy_ci": [
+      0.9782690146122143,
+      0.9883851629823904
+    ],
+    "balanced_accuracy": 0.9853536479110229,
+    "balanced_accuracy_ci": [
+      0.9802670188545475,
+      0.9898660167629693
+    ],
+    "macro_f1": 0.9840405424643317,
+    "macro_f1_ci": [
+      0.9788526694901436,
+      0.9888317157761368
+    ],
+    "ece_uncalibrated": 0.004223662163711906,
+    "ece_calibrated": 0.004731231400831747
+  },
+  "versions": {
+    "tensorflow": "2.21.0",
+    "onnxruntime": "1.25.0",
+    "tf2onnx": "1.17.0",
+    "python": "3.11.15"
+  }
+}

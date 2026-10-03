@@ -1,0 +1,13 @@
+{
+  "parity": {
+    "max_abs_logit_diff": 5.7220458984375e-06,
+    "same_top_class": 1.0
+  },
+  "speed": {
+    "onnx_ms_per_image": 1.91,
+    "keras_ms_per_image": 24.71,
+    "onnx_ms_per_32_batch": 54.9,
+    "onnx_file_mb": 4.7,
+    "keras_file_mb": 14.24
+  }
+}
