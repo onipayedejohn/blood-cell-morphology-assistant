@@ -2,7 +2,7 @@
 
 A Streamlit app that classifies one cell from a stained peripheral blood smear into seven types, shows where in the image the evidence sits, and tells you when not to trust the answer.
 
-**Live app:** _add your Streamlit link here_
+**Live app:** https://blood-cell-morphology-assistant.streamlit.app/
 **Status:** research and teaching prototype. Not for clinical use (see [Disclaimer](#disclaimer)).
 
 ![Classifying a test-set cell](docs/screenshots/classify_desktop.png)
@@ -184,5 +184,3 @@ This is a research and teaching prototype. It is not a medical device, has not b
   - Lee K, et al. *A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks.* NeurIPS 2018 (Mahalanobis distance).
   - Wu Y, Johnson J. *Rethinking "Batch" in BatchNorm.* 2021 (precise batch norm).
 - **Code:** MIT licence.
-
-Onipayede John Kwaku · [GitHub](https://github.com/onipayedejohn)
