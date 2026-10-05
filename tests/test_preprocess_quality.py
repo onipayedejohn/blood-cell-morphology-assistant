@@ -6,7 +6,7 @@ from bloodsmear.preprocess import center_square, resize_uint8, to_model_input
 from bloodsmear.quality import check_image
 
 
-def colour_image(w=200, h=200, seed=0):
+def color_image(w=200, h=200, seed=0):
     rng = np.random.default_rng(seed)
     arr = np.zeros((h, w, 3), np.uint8)
     arr[..., 0] = rng.integers(150, 230, (h, w))
@@ -22,7 +22,7 @@ def test_center_square_takes_the_middle():
 
 
 def test_resize_gives_uint8_square():
-    arr = resize_uint8(colour_image(300, 240), 112)
+    arr = resize_uint8(color_image(300, 240), 112)
     assert arr.shape == (112, 112, 3) and arr.dtype == np.uint8
 
 
@@ -39,12 +39,12 @@ def test_transparent_png_is_put_on_white():
 
 
 def test_tiny_image_is_blocked():
-    issues = check_image(colour_image(40, 40))
+    issues = check_image(color_image(40, 40))
     assert issues and issues[0].level == "block"
 
 
-def test_normal_colour_image_passes():
-    assert check_image(colour_image()) == []
+def test_normal_color_image_passes():
+    assert check_image(color_image()) == []
 
 
 def test_greyscale_dark_and_flat_images_warn():
@@ -56,10 +56,10 @@ def test_greyscale_dark_and_flat_images_warn():
 
 
 def test_long_thin_image_warns():
-    assert any("square" in i.message for i in check_image(colour_image(400, 150)))
+    assert any("square" in i.message for i in check_image(color_image(400, 150)))
 
 
-def test_cam_is_normalised_and_overlay_keeps_shape():
+def test_cam_is_normalized_and_overlay_keeps_shape():
     rng = np.random.default_rng(1)
     feats = rng.random((14, 14, 8)).astype(np.float32)
     weights = rng.normal(size=(8, 7)).astype(np.float32)

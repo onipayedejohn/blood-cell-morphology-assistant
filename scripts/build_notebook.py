@@ -1,4 +1,4 @@
-"""Write and execute notebooks/blood_cell_analysis.ipynb from the saved outputs.
+"""Write and execute notebooks/v1_single_lab_analysis.ipynb from the saved outputs.
 
 Run after evaluate.py and make_figures.py:  python scripts/build_notebook.py
 """
@@ -35,7 +35,7 @@ from bloodsmear.config import CLASSES, CELL_INFO, display_name
 from bloodsmear.preprocess import resize_uint8
 from bloodsmear.inference import CellClassifier
 from bloodsmear.explain import overlay
-MET = ROOT / "reports" / "metrics"
+MET = ROOT / "reports" / "metrics" / "v1"
 load = lambda n: json.loads((MET / n).read_text())
 pd.set_option("display.precision", 3)"""),
     md("""## 1. The data
@@ -59,8 +59,8 @@ for ax, r in zip(axes, first.itertuples()):
 plt.suptitle("One test-set cell per class", x=0.01, ha="left", fontweight="bold"); plt.tight_layout(); plt.show()"""),
     md("""## 2. Preprocessing
 
-One function, `bloodsmear.preprocess.resize_uint8`, crops the centre square and resizes with Lanczos filtering. The training arrays were built with it and the app calls it too, so the model never sees an image prepared differently. A test (`tests/test_data_and_model.py`) checks that re-running it on raw files reproduces the training arrays exactly."""),
-    code("""meta = json.loads((ROOT / "models" / "model_meta.json").read_text())
+One function, `bloodsmear.preprocess.resize_uint8`, crops the center square and resizes with Lanczos filtering. The training arrays were built with it and the app calls it too, so the model never sees an image prepared differently. A test (`tests/test_data_and_model.py`) checks that re-running it on raw files reproduces the training arrays exactly."""),
+    code("""meta = json.loads((ROOT / "models" / "v1" / "model_meta.json").read_text())
 size = meta["input_size"]
 img = Image.open(ROOT / "data" / "samples" / "eosinophil_1.jpg")
 fig, axes = plt.subplots(1, 2, figsize=(6, 3))
@@ -81,7 +81,7 @@ The selection rule was written before training: keep 112 px only if it beats 64 
 print(meta["selection"]["reason"])
 cmp[["name", "val_macro_f1", "val_accuracy", "params", "train_minutes", "train_energy_wh"]]"""),
     code("""from IPython.display import Image as Show
-Show(filename=str(ROOT / "reports" / "figures" / "training_curves.png"), width=820)"""),
+Show(filename=str(ROOT / "reports" / "figures" / "v1" / "training_curves.png"), width=820)"""),
     md("""## 4. Test-set results
 
 The test set was split off before training and used only for final scoring by `scripts/evaluate.py` (twice: before and after the confidence-rule change in `docs/decisions.md`; the metrics below are the same in both runs). Confidence intervals are bootstrap percentiles (1,000 resamples)."""),
@@ -94,7 +94,7 @@ rows.append({"Metric": "ECE after temperature scaling", "Value": test["ece_calib
 pd.DataFrame(rows)"""),
     code("""pc = pd.DataFrame(test["per_class"]); pc["class"] = pc["class"].map(display_name)
 pc.sort_values("recall")"""),
-    code("""Show(filename=str(ROOT / "reports" / "figures" / "confusion_matrix.png"), width=560)"""),
+    code("""Show(filename=str(ROOT / "reports" / "figures" / "v1" / "confusion_matrix.png"), width=560)"""),
     code("""pd.DataFrame(test["subtypes"]).sort_values("recall")"""),
     md("""The largest group of errors sits between neighboring maturation stages: band neutrophils against metamyelocytes, and monocytes against immature granulocytes. Those boundaries are also where people disagree on a real smear.
 
@@ -108,12 +108,12 @@ print(f"Still marked Confident: {sel['errors_marked_confident']} errors, {sel['e
 print("Rule history:", val["first_rule_replaced"]["test_effect"])"""),
     code("""fig, axes = plt.subplots(1, 2, figsize=(10, 4))
 for ax, f in zip(axes, ["reliability.png", "selective_prediction.png"]):
-    ax.imshow(Image.open(ROOT / "reports" / "figures" / f)); ax.axis("off")
+    ax.imshow(Image.open(ROOT / "reports" / "figures" / "v1" / f)); ax.axis("off")
 plt.tight_layout(); plt.show()"""),
     md("""## 5. Where the model looks
 
 The network ends in global average pooling and one dense layer, so the class activation map is exact: the last feature maps weighted by the dense weights for the predicted class. The app computes it from the ONNX model's second output."""),
-    code("""clf = CellClassifier()
+    code("""clf = CellClassifier(ROOT / "models" / "v1")
 fig, axes = plt.subplots(2, 7, figsize=(14, 4.4))
 for k, r in enumerate(first.itertuples()):
     p = clf.predict(Image.open(ROOT / "data" / "samples" / r.file))
@@ -127,9 +127,9 @@ BCCD photos come from a different lab, stain and camera, and have no subtype lab
     code("""ext = load("external_checks.json")
 pd.DataFrame(ext["checks"]).T[["n", "flagged_unfamiliar"]]"""),
     code("""print("What the model called the BCCD white cells:", ext["bccd_predicted_classes"])
-Show(filename=str(ROOT / "reports" / "figures" / "unfamiliar_distances.png"), width=620)"""),
+Show(filename=str(ROOT / "reports" / "figures" / "v1" / "unfamiliar_distances.png"), width=620)"""),
     md("""## 7. Mistakes and limits"""),
-    code("""Show(filename=str(ROOT / "reports" / "figures" / "confident_errors.png"), width=900)"""),
+    code("""Show(filename=str(ROOT / "reports" / "figures" / "v1" / "confident_errors.png"), width=900)"""),
     md("""**What this model should not be used for**
 
 - Patient care. It is a research and teaching prototype, not a medical device.
@@ -141,7 +141,7 @@ The dataset has no patient identifiers, so test cells may come from the same peo
 ]
 
 nb = nbf.v4.new_notebook(cells=cells, metadata={"kernelspec": {"name": "python3", "display_name": "Python 3"}})
-out = ROOT / "notebooks" / "blood_cell_analysis.ipynb"
+out = ROOT / "notebooks" / "v1_single_lab_analysis.ipynb"
 ExecutePreprocessor(timeout=600, kernel_name="python3").preprocess(nb, {"metadata": {"path": str(ROOT / "notebooks")}})
 nbf.write(nb, out)
 print("Wrote", out)

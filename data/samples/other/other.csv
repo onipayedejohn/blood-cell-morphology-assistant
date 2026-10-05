@@ -1,5 +1,13 @@
-file,label,class,note
-other_lab_white_cell_1.jpg,White cell from another lab (1),,"From the BCCD dataset: a different lab, stain and camera. The subtype is not labeled."
-other_lab_white_cell_2.jpg,White cell from another lab (2),,"From the BCCD dataset: a different lab, stain and camera. The subtype is not labeled."
-red_cells_only.jpg,"Red cells only, no white cell",,A BCCD field with red cells and no white cell. None of the seven classes fits.
-random_noise.png,Random noise,,Pure noise. The model will still pick a class; the status line should warn you.
+file,group,label,class,note
+bccd_neutrophil.jpg,Single cells from another lab,Neutrophil (BCCD lab),neutrophil,"From the BCCD dataset: another lab, stain and camera. Version 2 trained on other BCCD cells, never on this one."
+bccd_eosinophil.jpg,Single cells from another lab,Eosinophil (BCCD lab),eosinophil,"From the BCCD dataset: another lab, stain and camera. Version 2 trained on other BCCD cells, never on this one."
+bccd_lymphocyte.jpg,Single cells from another lab,Lymphocyte (BCCD lab),lymphocyte,"From the BCCD dataset: another lab, stain and camera. Version 2 trained on other BCCD cells, never on this one."
+bccd_monocyte.jpg,Single cells from another lab,Monocyte (BCCD lab),monocyte,"From the BCCD dataset: another lab, stain and camera. Version 2 trained on other BCCD cells, never on this one."
+field_1.jpg,Whole microscope fields,"Field 1 (draaslan, 2 white cells)",,A whole field from the draaslan dataset with 2 white cells marked by its annotators. From the test half: none of its cells were used for training or tuning.
+field_2.jpg,Whole microscope fields,"Field 2 (BCCD, 1 white cell)",,A whole field from the BCCD dataset with 1 white cell marked by its annotators. From the test half: none of its cells were used for training or tuning.
+field_3.jpg,Whole microscope fields,"Field 3 (BCCD, 1 white cell at the edge)",,A whole field from the BCCD dataset with 1 white cell marked by its annotators. From the test half: none of its cells were used for training or tuning.
+black_a4_sheet.jpg,Images that are not blood cells,Photo of a black A4 sheet,,The case that was reported: version 1 called this a cell.
+printed_document.jpg,Images that are not blood cells,Printed document,,A page of text.
+everyday_photo.jpg,Images that are not blood cells,Everyday photo,,"NASA astronaut portrait (public domain), from scikit-image."
+random_noise.png,Images that are not blood cells,Random noise,,Pure noise.
+red_cells_only.jpg,Images that are not blood cells,Smear with red cells only,,"A blood smear, but no white cell in view."

@@ -1,0 +1,23 @@
+{
+  "threshold_p_white": 0.3,
+  "train_minutes": 12.2,
+  "validation_accuracy": 0.9988782950084127,
+  "validation_cells_accepted": 1.0,
+  "validation_non_cells_accepted": 0.0009017132551848512,
+  "white_cells_accepted": {
+    "pbc_test": 1.0,
+    "bccd_test_half": 1.0,
+    "jtsc_test_half": 1.0,
+    "cvblog_test_half": 1.0
+  },
+  "smear_patches_without_white_cell": {
+    "accepted_as_white_cell": 0.00563063063063063,
+    "called_smear_no_wbc": 0.990990990990991
+  },
+  "not_smear_accepted_as_white_cell": {
+    "cifar_unseen_photos": 0.001,
+    "synthetic_new_seed": 0.0016666666666666668,
+    "pattern_type_never_trained": 0.02,
+    "scikit_image_photos": 0.0
+  }
+}

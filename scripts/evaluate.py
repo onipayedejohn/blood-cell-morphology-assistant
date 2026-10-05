@@ -47,7 +47,7 @@ from bloodsmear.config import CLASSES  # noqa: E402
 from bloodsmear.preprocess import resize_uint8  # noqa: E402
 
 MODELS = ROOT / "models"
-METRICS = ROOT / "reports" / "metrics"
+METRICS = ROOT / "reports" / "metrics" / "v1"  # version 1 outputs; version 2 is evaluate_v2.py
 SEED = 42
 TIE = 0.005
 REVIEW_BUDGET = 0.02  # send the least confident 2% of validation cells for review
@@ -75,7 +75,8 @@ def load_split(size):
 
 def logits_and_features(model, X, batch=256):
     """Logits and spatially pooled last-layer features (pooling inside each batch keeps memory low)."""
-    feat_layer = model.get_layer("b3_relu1").output
+    names = {l.name for l in model.layers}
+    feat_layer = model.get_layer("b3_relu1" if "b3_relu1" in names else "features").output
     fm = tf.keras.Model(model.input, [model.output, feat_layer])
     pooled_model = tf.keras.Model(model.input, [model.output, tf.keras.layers.GlobalAveragePooling2D()(feat_layer)])
     L, F = [], []
@@ -156,7 +157,7 @@ def main():
     ap.add_argument("--preview", type=Path, default=None,
                     help="Debug run: score the validation set instead of the test set and write to this folder.")
     args = ap.parse_args()
-    out_models = MODELS
+    out_models = MODELS / "v1"
     if args.preview:
         out_models, METRICS = args.preview / "models", args.preview / "metrics"
         out_models.mkdir(parents=True, exist_ok=True)

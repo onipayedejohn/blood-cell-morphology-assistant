@@ -9,3 +9,7 @@ data/processed/
 models/candidates/*.keras
 emissions.csv
 .DS_Store
+
+# Your own lab images and adapted models stay on your computer (they may contain patient data)
+data/local/
+models/local_*/

@@ -1,0 +1,29 @@
+{
+  "pbc": {
+    "n": 13344,
+    "nucleus_found": 1.0,
+    "padded": 0.27967625899280574
+  },
+  "external": {
+    "n": 751,
+    "nucleus_found": 0.9600532623169108,
+    "padded": 0.933422103861518
+  },
+  "external_by_lab": {
+    "bccd": {
+      "n": 351,
+      "nucleus_found": 1.0,
+      "padded": 1.0
+    },
+    "cvblog": {
+      "n": 100,
+      "nucleus_found": 1.0,
+      "padded": 0.83
+    },
+    "jtsc": {
+      "n": 300,
+      "nucleus_found": 0.9,
+      "padded": 0.89
+    }
+  }
+}

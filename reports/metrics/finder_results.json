@@ -1,0 +1,48 @@
+{
+  "train": {
+    "bccd": {
+      "images": 184,
+      "white_cells": 188,
+      "found": 186,
+      "recall": 0.9893617021276596,
+      "false_alarms_per_image": 0.005434782608695652
+    },
+    "draaslan": {
+      "images": 46,
+      "white_cells": 47,
+      "found": 46,
+      "recall": 0.9787234042553191,
+      "false_alarms_per_image": 0.0
+    },
+    "pbc": {
+      "images": 300,
+      "white_cells": 300,
+      "found": 298,
+      "recall": 0.9933333333333333,
+      "false_alarms_per_image": 0.0
+    }
+  },
+  "test": {
+    "bccd": {
+      "images": 180,
+      "white_cells": 184,
+      "found": 184,
+      "recall": 1.0,
+      "false_alarms_per_image": 0.03333333333333333
+    },
+    "draaslan": {
+      "images": 54,
+      "white_cells": 56,
+      "found": 53,
+      "recall": 0.9464285714285714,
+      "false_alarms_per_image": 0.0
+    },
+    "pbc": {
+      "images": 300,
+      "white_cells": 300,
+      "found": 294,
+      "recall": 0.98,
+      "false_alarms_per_image": 0.0
+    }
+  }
+}

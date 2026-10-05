@@ -1,94 +1,114 @@
-# Model card: blood cell classifier
+# Model card: blood cell morphology assistant, version 2
+
+Two models run in sequence: a **blood cell check** that decides whether an image is a stained white cell at all, and a **classifier** that names the cell type. Version 1's card is kept in the git history and its outputs in `models/v1` and `reports/metrics/v1`.
 
 ## Summary
 
-| | |
-|---|---|
-| Task | Classify one cropped cell from a Romanowsky-stained peripheral blood smear into 7 types |
-| Classes | basophil, eosinophil, erythroblast, immature granulocyte, lymphocyte, monocyte, neutrophil |
-| Model | Convolutional network trained from scratch: 4 blocks of two 3x3 convolutions with batch norm, max pooling, global average pooling, one dense layer. 1,176,935 parameters. |
-| Input | Center square of the image, resized to 64 x 64 RGB with Lanczos filtering, scaled to [0, 1] |
-| Outputs | 7 logits and the last feature maps (8 x 8 x 256). The app turns these into calibrated probabilities, a class activation map and an unfamiliar-image score. |
-| Format | ONNX (opset 17), 4.7 MB, run with ONNX Runtime on CPU |
-| Intended use | Teaching and research on how image models behave on blood smears |
-| Not for | Patient care, screening, or any decision about a real patient |
+| | Blood cell check | Classifier |
+|---|---|---|
+| Task | Sort an image into white cell, smear with no white cell, or not a smear | Classify one white cell into 7 types |
+| Classes | white_cell, smear_no_wbc, not_smear | basophil, eosinophil, erythroblast, immature granulocyte, lymphocyte, monocyte, neutrophil |
+| Model | CNN, 4 blocks of two 3x3 convolutions (16 to 128 channels), 295,347 parameters | CNN, 4 blocks of two 3x3 convolutions (32 to 256 channels), 1,176,935 parameters |
+| Input | Center square of the image as uploaded, 64 x 64 | The cell in standard framing (`src/bloodsmear/canonical.py`): recentered on the nucleus, cropped to 2.4 times its size, background color divided out, 64 x 64 |
+| Format | ONNX, 1.2 MB | ONNX, 4.7 MB, also returns 8 x 8 x 256 feature maps for the heatmap and the unfamiliar-image check |
+| Speed (1 image, CPU) | 1 to 2 ms | about 3 ms |
+| Intended use | Teaching and research on how image models behave on blood smears | |
+| Not for | Patient care, screening, or any decision about a real patient | |
+
+## Training data
+
+See `data/DATA_CARD.md` for sources, licences and counts.
+
+- **Classifier:** PBC training split (9,340 cells, one hospital in Barcelona, CellaVision DM96), plus 75% of the training half of each of three other sources: BCCD (131 cells), Jiangxi Tecom (112) and CellaVision blog images (about 36). Each external cell is repeated 10 times per epoch. Validation: PBC validation split (1,335) and the remaining quarter of each external training half.
+- **Blood cell check:** 3,000 PBC training cells and the external training halves (repeated 6 times) as white cells; 1,866 smear patches without a white cell; 5,538 not-smear images (CIFAR-10 photos and generated paper, documents, screens, gradients, noise and textures). 15% to 20% of each group is kept for validation.
 
 ## Training
 
-- **Data:** PBC dataset (Acevedo et al., 2020, CC BY 4.0), 9,340 training and 1,335 validation images. See `data/DATA_CARD.md`.
-- **Augmentation:** random flips, 90° rotations, and small brightness, contrast, saturation and hue changes.
-- **Optimizer:** AdamW (learning rate 2e-3, cosine decay, weight decay 1e-4), batch 64, 25 epochs, class weights inversely proportional to class frequency.
-- **Batch-norm statistics** are recomputed on 2,048 clean training images before each validation check (precise BN). In the first run, without this step, inference-mode validation macro-F1 was 0.10 at epoch 4, and the same weights scored 0.96 after recomputing. Those two figures come from my debugging session; that run's log and checkpoint were overwritten.
-- **Checkpoint:** the epoch with the best validation macro-F1 (0.9915, epoch 24).
-- **Cost:** 40 minutes on 2 CPU cores, about 10.8 Wh and 5.2 g CO2e at Ghana's grid intensity (CodeCarbon estimate).
+- **Classifier:** started from the version 1 weights (PBC only). AdamW, learning rate 1e-3 with cosine decay, weight decay 1e-4, batch 64, 10 epochs, class weights inversely proportional to frequency. Precise batch norm before each validation check. The checkpoint with the best score (half PBC validation macro-F1, half external validation accuracy) was kept: epoch 10. 34.6 minutes on 2 CPU cores, about 9.5 Wh (CodeCarbon estimate).
+- **Augmentation (classifier):** for 75% of images, stain jitter in color-deconvolution space (Ruifrok and Johnston 2001), white balance, brightness, contrast, saturation, hue and gamma, free rotation, zoom 0.7 to 1.35, uneven lighting, blur, lower resolution, sensor noise, JPEG, and flat gray borders like the padding tight crops get. The other 25% are only flipped and rotated.
+- **Blood cell check:** from scratch, 10 epochs, the same augmentation without the borders. About 12 minutes.
 
-## Model selection (validation set)
+## Choices made on validation data
 
-| Model | Validation macro-F1 | Parameters | Training time | Training energy |
+| Choice | Rule | Value |
+|---|---|---|
+| Temperature | Minimize negative log-likelihood on validation logits | T = 0.81 |
+| Review level | Send the least confident 2% of validation cells for review | 51% confidence |
+| Unfamiliar-image level | 99th percentile of validation Mahalanobis distances | 28.3 |
+| Blood cell check level | Lowest level at which at most 0.5% of validation images without a white cell pass, clamped to 0.3 to 0.9 | 0.3 (the floor) |
+
+The blood cell check's rule was changed once. The first rule (let 99% of validation cells through) hit its 0.9 ceiling and refused 26% of cells from a lab the check had never seen (`reports/metrics/gate_first_rule_lolo_bccd.json`).
+
+## Results
+
+### Labs the classifier never saw
+
+Separate models, each trained with one lab left out completely.
+
+| Lab | Cells | Accuracy (95% CI) | Balanced accuracy | Answers at 90%+ confidence: share, accuracy |
 |---|---|---|---|---|
-| Logistic regression on 24 x 24 pixels | 0.779 | 12,103 | 0.3 min | 0.07 Wh |
-| **CNN, 64 x 64 input (chosen)** | **0.992** | 1,176,935 | 40 min | 10.8 Wh |
-| CNN, 112 x 112 input | 0.991 | 663,247 | 76 min | 20.8 Wh |
+| BCCD | 351 | 50.7% (45.3% to 55.8%) | 49.1% | 24%, 68% |
+| Jiangxi Tecom | 300 | 34.0% (29.0% to 39.3%) | 35.7% | 39%, 51% |
 
-The rule, set before training: keep 112 px only if it beats 64 px by more than 0.005 macro-F1. It did not. The 64 px model needs about 40% less computation per image (211 vs 366 million multiply-adds).
+Version 1 scored 0.0% and 3.3% on the same cells. The BCCD figure is slightly optimistic, because three set-ups were compared on it (`reports/metrics/v2_experiments.json`). Neutrophils read as eosinophils is the commonest error on both labs (122 BCCD and 94 Jiangxi Tecom cells). Answers the status line marked Confident were right only 55% (BCCD) and 25% (Jiangxi Tecom) of the time.
 
-## Test results (2,669 images)
+### Adapting to a lab
 
-The test set was used only for final scoring. It was scored twice, before and after the confidence-rule change described below; the model and the metrics in this section are the same in both runs.
+`scripts/finetune_local.py`, starting from the model that never saw the lab, trained on part of that lab's cells and scored on the rest:
 
-| Metric | Value | 95% bootstrap CI |
-|---|---|---|
-| Accuracy | 98.4% | 97.8% to 98.8% |
-| Balanced accuracy | 98.5% | 98.0% to 99.0% |
-| Macro-F1 | 98.4% | 97.9% to 98.9% |
-| Expected calibration error | 0.42% before, 0.47% after temperature scaling (T = 0.92) | |
+| Lab | Trained on | Scored on | Before | After | Balanced accuracy after |
+|---|---|---|---|---|---|
+| Jiangxi Tecom | 84 | 44 | 29.5% | 86.4% | 81.6% |
+| BCCD | 99 | 52 | 42.3% | 80.8% | 66.0% |
 
-| Class | Precision | Recall | Test cells |
+Most of the gain is in neutrophils. Rare types stayed weak, and BCCD eosinophil recall fell from 77% to 54%.
+
+### Final classifier on held-out test cells
+
+| Test cells | n | Accuracy (95% CI) | Balanced accuracy | Macro-F1 |
+|---|---|---|---|---|
+| PBC (training lab) | 2,669 | 93.7% (92.8% to 94.6%) | 94.3% | 92.9% |
+| BCCD test half | 177 | 84.7% (79.7% to 89.8%) | 68.5% | |
+| Jiangxi Tecom test half | 151 | 88.7% (83.4% to 94.0%) | 63.7% | |
+| CellaVision blog test half | 52 | 61.5% (48.1% to 75.0%) | 50.6% | |
+
+Other cells from the three external sources were in training, so their rows describe adapted labs, not new ones. Version 1 scored 98.4% on the PBC test set; version 2 gives up 4.6 points there.
+
+| PBC class | Precision | Recall | Test cells |
 |---|---|---|---|
-| Basophil | 98.6% | 99.1% | 214 |
-| Eosinophil | 100% | 100% | 587 |
-| Erythroblast | 97.9% | 98.9% | 185 |
-| Immature granulocyte | 95.6% | 97.6% | 538 |
-| Lymphocyte | 98.7% | 99.1% | 232 |
-| Monocyte | 97.8% | 98.2% | 272 |
-| Neutrophil | 99.4% | 96.9% | 641 |
+| Basophil | 87.6% | 99.1% | 214 |
+| Eosinophil | 100% | 98.5% | 587 |
+| Erythroblast | 87.6% | 95.1% | 185 |
+| Immature granulocyte | 90.9% | 87.2% | 538 |
+| Lymphocyte | 90.5% | 94.4% | 232 |
+| Monocyte | 86.1% | 93.0% | 272 |
+| Neutrophil | 99.7% | 92.7% | 641 |
 
-**Where the errors are.** 18 of the 44 test errors are neutrophils read as immature granulocytes, 16 of them band forms (band neutrophil recall 94.7%). That is the boundary between band neutrophils and metamyelocytes, which sit next to each other in maturation and on which human readers also disagree. Promyelocytes are sometimes read as monocytes (96.7% correct).
+Calibration error on the PBC test set is 1.5%. The status line held back 67 PBC test cells and caught 31 of the 168 errors; cells marked Confident were right 94.7% of the time.
 
-**Calibration.** The model was already well calibrated. Temperature scaling (T = 0.92) slightly sharpened the scores and nudged ECE from 0.42% to 0.47%. Most test cells receive confidence above 95%. The few mid-range bins hold around 20 cells each and are overconfident, so a mid-range confidence should be read loosely.
+### Blood cell check
 
-## The status line
-
-| Check | How it was set | Test cells held back |
+| Images | n | Passed |
 |---|---|---|
-| Confidence at least 81% | Sends the least confident 2% of validation cells for review | 70 |
-| Unfamiliar image | Mahalanobis distance of pooled features from the nearest class center, warning above the 99th percentile of validation distances | 30 |
-
-Together they held back 98 of 2,669 test cells (3.7%; 2 cells failed both checks) and caught 25 of the 44 errors. Accepted cells were 99.3% correct. **19 errors were still marked Confident, 10 of them above 90% confidence.**
-
-The first confidence rule was "the lowest level, searching up from 40%, at which accepted validation cells are at least 99% correct". It settled at 40%, held back no test cells, and left 42 of 44 errors marked Confident. I replaced it with the review budget after that first test run, so the status-line figures are not a fully clean held-out estimate. The model, temperature and unfamiliar-image level did not change.
-
-## Images from elsewhere
-
-| Images | Flagged as unfamiliar |
-|---|---|
-| PBC test cells (training lab) | 1.1% of 2,669 |
-| BCCD white cells (another lab, stain and camera) | 99.7% of 358 |
-| BCCD red cells only, no white cell | 100% of 150 |
-| Random noise | 100% of 100 |
-| Blank fields | 100% of 50 |
-
-Distances separate PBC test cells from BCCD white cells with an AUROC of 0.999. Without the check, the model would have called 302 of the 358 BCCD white cells immature granulocytes and 50 of them erythroblasts, with a median confidence of 99.9%. On a real smear that would read as a left shift. BCCD has no subtype labels, so accuracy on it cannot be measured, but it is clearly poor. **This model does not transfer to other labs without retraining.**
-
-## Limitations
-
-- One site and one automated microscope (CellaVision DM96). Other stains, optics, cameras and magnifications are out of scope.
-- Donors without infection or blood disease. Blasts, atypical lymphocytes, parasites and abnormal red cells are not classes.
-- No patient identifiers, so test cells may share donors with training cells.
-- The class activation map is only 8 x 8, so it shows roughly where the evidence is, not fine structure.
-- Platelets are not included.
-- One training pair has identical pixels but conflicting labels (band neutrophil and eosinophil). See the data card.
+| White cells, PBC test | 2,669 | 100% |
+| White cells, external test halves | 380 | 100% |
+| White cells, BCCD, from a check trained without BCCD | 351 | 93.4% |
+| Smear patches, no white cell | 888 | 0.6% |
+| Everyday photos (unseen CIFAR-10) | 1,000 | 0.1% |
+| Paper, documents, screens, noise (new seed) | 600 | 0.2% |
+| A pattern type never used in training | 200 | 2.0% |
+| scikit-image photos and pages | 19 | 0% |
 
 ## Export check
 
-On 64 test images the ONNX export gave the same top class as Keras every time, with a largest logit difference of 5.7e-6. ONNX Runtime takes 1.9 ms per cell against 24.7 ms for TensorFlow on the same CPU, and 55 ms for a batch of 32 (timings vary a little between runs).
+On 64 test images the classifier's ONNX export gave the same top class as Keras every time, with a largest logit difference of 4e-6. For the blood cell check the largest logit difference was 2e-6.
+
+## Limitations
+
+- On a new lab, accuracy is low and confidence does not fix it. Adapt the model first.
+- Erythroblasts and immature granulocytes were learned from one lab only.
+- Blasts, atypical lymphocytes, parasites and abnormal red cells are not classes.
+- Phone photos through an eyepiece were only simulated.
+- No patient identifiers in PBC, so test cells may share donors with training cells.
+- External labels were used as published and not re-read.
+- The heatmap is 8 x 8, so it shows roughly where the evidence is.

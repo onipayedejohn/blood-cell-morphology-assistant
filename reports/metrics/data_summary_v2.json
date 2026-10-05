@@ -1,0 +1,35 @@
+{
+  "external": {
+    "test": {
+      "bccd": 177,
+      "cvblog": 52,
+      "jtsc": 151
+    },
+    "train": {
+      "bccd": 174,
+      "cvblog": 48,
+      "jtsc": 149
+    }
+  },
+  "smear_no_wbc": {
+    "train": 1866,
+    "test": 888
+  },
+  "not_smear_train": 5538,
+  "not_smear_test": {
+    "cifar_unseen_photos": 1000,
+    "synthetic_new_seed": 600,
+    "pattern_type_never_trained": 200,
+    "scikit_image_photos": 19
+  },
+  "fields": {
+    "test": {
+      "bccd": 180,
+      "draaslan": 54
+    },
+    "train": {
+      "bccd": 184,
+      "draaslan": 46
+    }
+  }
+}

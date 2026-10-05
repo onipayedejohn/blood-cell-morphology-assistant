@@ -26,6 +26,15 @@ def wait_ready(page, text=None, timeout=60):
     time.sleep(1.5)
 
 
+def choose(page, label, option):
+    """Pick an option in a Streamlit selectbox by its label."""
+    box = page.locator('[data-testid="stSelectbox"]').filter(has=page.get_by_text(label, exact=True)).first
+    box.locator("input").first.click()
+    time.sleep(0.6)
+    page.get_by_role("option", name=option, exact=True).click()
+    time.sleep(2)
+
+
 def click_tab(page, name):
     page.get_by_role("tab", name=name).click()
     time.sleep(2.5)
@@ -44,11 +53,21 @@ def main():
         wait_ready(desk, "Other possibilities")
         desk.screenshot(path=str(args.out / "classify_desktop.png"), full_page=True)
 
-        # A questionable image, to show the warning state
-        desk.get_by_text("Images the app should question").click()
-        time.sleep(2)
-        wait_ready(desk)
-        desk.screenshot(path=str(args.out / "unfamiliar_desktop.png"), full_page=True)
+        # The reported case: a photo of a black A4 sheet is refused, with no cell type
+        choose(desk, "Sample set", "Images that are not blood cells")
+        choose(desk, "Sample", "Photo of a black A4 sheet")
+        wait_ready(desk, "does not look like a stained blood smear")
+        desk.screenshot(path=str(args.out / "refused_desktop.png"), full_page=True)
+
+        # A whole microscope field: cells found, cropped and classified one by one
+        choose(desk, "Sample set", "Whole microscope fields")
+        wait_ready(desk, "classified on its own")
+        desk.screenshot(path=str(args.out / "field_desktop.png"), full_page=True)
+
+        # A cell from another lab
+        choose(desk, "Sample set", "Single cells from another lab")
+        wait_ready(desk, "Other possibilities")
+        desk.screenshot(path=str(args.out / "other_lab_desktop.png"), full_page=True)
 
         for tab, name in [("Differential count", "differential"), ("Model performance", "performance"),
                           ("About and limits", "about"), ("Session history", "history")]:

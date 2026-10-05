@@ -2,7 +2,7 @@
 
 The app leans on Streamlit's own components. This file only tightens the type
 scale, styles the result readout, and builds the Altair charts with one blue
-hue (checked for colour-blind separation) so the performance tab reads as a set.
+hue (checked for color-blind separation) so the performance tab reads as a set.
 """
 
 from __future__ import annotations
@@ -74,6 +74,38 @@ def thumb_uri(arr_or_img, size: int = 72) -> str:
 
 def upscale(arr: np.ndarray, side: int = 360) -> Image.Image:
     return Image.fromarray(arr).resize((side, side), Image.Resampling.LANCZOS)
+
+
+# -- whole-field annotation ----------------------------------------------------------------
+BOX_COLORS = {"confident": (42, 120, 214), "review": (214, 140, 0), "unfamiliar": (214, 140, 0),
+              "not_blood": (120, 124, 140), "no_white_cell": (120, 124, 140)}
+
+
+def annotate_field(img: Image.Image, boxes, statuses, max_side: int = 900) -> Image.Image:
+    """Draw a numbered square around each white cell found. Numbers match the list below the image."""
+    from PIL import ImageDraw, ImageFont
+    im = img.convert("RGB").copy()
+    # shrink large photos; enlarge small ones so the numbers stay sharp when the image is stretched
+    scale = max_side / max(im.size) if max(im.size) > max_side or max(im.size) < 600 else 1.0
+    if scale != 1.0:
+        im = im.resize((int(im.width * scale), int(im.height * scale)), Image.Resampling.LANCZOS)
+    d = ImageDraw.Draw(im)
+    lw = max(2, int(round(max(im.size) / 300)))
+    try:
+        font = ImageFont.load_default(size=max(14, int(max(im.size) / 40)))
+    except TypeError:
+        font = ImageFont.load_default()
+    for k, (b, st_) in enumerate(zip(boxes, statuses), start=1):
+        x0, y0, x1, y1 = [int(v * scale) for v in b]
+        x0, y0 = max(0, x0), max(0, y0)
+        x1, y1 = min(im.width - 1, x1), min(im.height - 1, y1)
+        col = BOX_COLORS.get(st_, (42, 120, 214))
+        d.rectangle((x0, y0, x1, y1), outline=col, width=lw)
+        label = str(k)
+        tw, th = d.textbbox((0, 0), label, font=font)[2:]
+        d.rectangle((x0, y0, x0 + tw + 10, y0 + th + 8), fill=col)
+        d.text((x0 + 5, y0 + 3), label, fill="white", font=font)
+    return im
 
 
 # -- charts ---------------------------------------------------------------------------------
@@ -150,7 +182,7 @@ def coverage_chart(curve: list[dict], threshold: float) -> alt.Chart:
 
 
 def differential_chart(df: pd.DataFrame, ranges: dict[str, tuple[float, float]]) -> alt.Chart:
-    """Observed percentage per white cell type, over a grey band for the typical adult range."""
+    """Observed percentage per white cell type, over a gray band for the typical adult range."""
     d = df.copy()
     d["lo"] = [ranges[k][0] for k in d["key"]]
     d["hi"] = [max(ranges[k][1], 0.4) for k in d["key"]]

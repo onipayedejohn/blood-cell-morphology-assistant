@@ -1,0 +1,1530 @@
+{
+  "unseen_labs": {
+    "bccd": {
+      "v2_never_saw_this_lab": {
+        "n": 351,
+        "accuracy": 0.5071225071225072,
+        "accuracy_ci": [
+          0.452991452991453,
+          0.5584757834757834
+        ],
+        "balanced_accuracy": 0.4906258234519104,
+        "per_class": [
+          {
+            "class": "basophil",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 3
+          },
+          {
+            "class": "eosinophil",
+            "recall": 0.8295454545454546,
+            "precision": 0.3686868686868687,
+            "support": 88
+          },
+          {
+            "class": "lymphocyte",
+            "recall": 0.5757575757575758,
+            "precision": 0.7037037037037037,
+            "support": 33
+          },
+          {
+            "class": "monocyte",
+            "recall": 0.7,
+            "precision": 0.4375,
+            "support": 20
+          },
+          {
+            "class": "neutrophil",
+            "recall": 0.34782608695652173,
+            "precision": 0.96,
+            "support": 207
+          }
+        ],
+        "predicted": {
+          "basophil": 3,
+          "eosinophil": 198,
+          "erythroblast": 13,
+          "immature_granulocyte": 3,
+          "lymphocyte": 27,
+          "monocyte": 32,
+          "neutrophil": 75
+        },
+        "macro_f1": 0.3132746685938175,
+        "confusion_matrix": [
+          [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            73,
+            1,
+            0,
+            6,
+            5,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            7,
+            0,
+            19,
+            7,
+            0
+          ],
+          [
+            0,
+            2,
+            2,
+            0,
+            1,
+            14,
+            1
+          ],
+          [
+            2,
+            122,
+            3,
+            2,
+            0,
+            6,
+            72
+          ]
+        ],
+        "status_line": {
+          "held_back": 127,
+          "errors": 173,
+          "errors_held_back": 73,
+          "accuracy_on_confident": 0.5535714285714286,
+          "share_confident": 0.6381766381766382,
+          "flagged_unfamiliar": 0.2535612535612536
+        },
+        "by_confidence": [
+          {
+            "min_confidence": 0.0,
+            "share": 1.0,
+            "accuracy": 0.5071225071225072
+          },
+          {
+            "min_confidence": 0.5,
+            "share": 0.8005698005698005,
+            "accuracy": 0.5409252669039146
+          },
+          {
+            "min_confidence": 0.7,
+            "share": 0.5299145299145299,
+            "accuracy": 0.6021505376344086
+          },
+          {
+            "min_confidence": 0.8,
+            "share": 0.4017094017094017,
+            "accuracy": 0.6028368794326241
+          },
+          {
+            "min_confidence": 0.9,
+            "share": 0.23931623931623933,
+            "accuracy": 0.6785714285714286
+          },
+          {
+            "min_confidence": 0.95,
+            "share": 0.1168091168091168,
+            "accuracy": 0.8536585365853658
+          },
+          {
+            "min_confidence": 0.99,
+            "share": 0.03133903133903134,
+            "accuracy": 1.0
+          }
+        ]
+      },
+      "v2_first_attempt_no_framing": {
+        "n": 351,
+        "accuracy": 0.5042735042735043,
+        "accuracy_ci": [
+          0.45584045584045585,
+          0.5555555555555556
+        ],
+        "balanced_accuracy": 0.4649165568730786,
+        "per_class": [
+          {
+            "class": "basophil",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 3
+          },
+          {
+            "class": "eosinophil",
+            "recall": 0.2840909090909091,
+            "precision": 0.5813953488372093,
+            "support": 88
+          },
+          {
+            "class": "lymphocyte",
+            "recall": 0.9090909090909091,
+            "precision": 0.5,
+            "support": 33
+          },
+          {
+            "class": "monocyte",
+            "recall": 0.6,
+            "precision": 0.17142857142857143,
+            "support": 20
+          },
+          {
+            "class": "neutrophil",
+            "recall": 0.5314009661835749,
+            "precision": 0.859375,
+            "support": 207
+          }
+        ],
+        "predicted": {
+          "basophil": 40,
+          "eosinophil": 43,
+          "immature_granulocyte": 10,
+          "lymphocyte": 60,
+          "monocyte": 70,
+          "neutrophil": 128
+        }
+      },
+      "v1": {
+        "n": 351,
+        "accuracy": 0.0,
+        "accuracy_ci": [
+          0.0,
+          0.0
+        ],
+        "balanced_accuracy": 0.0,
+        "per_class": [
+          {
+            "class": "basophil",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 3
+          },
+          {
+            "class": "eosinophil",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 88
+          },
+          {
+            "class": "lymphocyte",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 33
+          },
+          {
+            "class": "monocyte",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 20
+          },
+          {
+            "class": "neutrophil",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 207
+          }
+        ],
+        "predicted": {
+          "erythroblast": 43,
+          "immature_granulocyte": 297,
+          "monocyte": 11
+        }
+      }
+    },
+    "jtsc": {
+      "v2_never_saw_this_lab": {
+        "n": 300,
+        "accuracy": 0.34,
+        "accuracy_ci": [
+          0.29,
+          0.3933333333333333
+        ],
+        "balanced_accuracy": 0.3565823327615781,
+        "per_class": [
+          {
+            "class": "basophil",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 1
+          },
+          {
+            "class": "eosinophil",
+            "recall": 0.7272727272727273,
+            "precision": 0.12403100775193798,
+            "support": 22
+          },
+          {
+            "class": "lymphocyte",
+            "recall": 0.8113207547169812,
+            "precision": 0.39090909090909093,
+            "support": 53
+          },
+          {
+            "class": "monocyte",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 48
+          },
+          {
+            "class": "neutrophil",
+            "recall": 0.24431818181818182,
+            "precision": 1.0,
+            "support": 176
+          }
+        ],
+        "predicted": {
+          "basophil": 2,
+          "eosinophil": 129,
+          "erythroblast": 12,
+          "immature_granulocyte": 4,
+          "lymphocyte": 110,
+          "neutrophil": 43
+        },
+        "macro_f1": 0.1617459936702079,
+        "confusion_matrix": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            16,
+            0,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            7,
+            0,
+            43,
+            0,
+            0
+          ],
+          [
+            0,
+            17,
+            5,
+            3,
+            23,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            1,
+            38,
+            0,
+            43
+          ]
+        ],
+        "status_line": {
+          "held_back": 157,
+          "errors": 198,
+          "errors_held_back": 91,
+          "accuracy_on_confident": 0.2517482517482518,
+          "share_confident": 0.4766666666666667,
+          "flagged_unfamiliar": 0.39666666666666667
+        },
+        "by_confidence": [
+          {
+            "min_confidence": 0.0,
+            "share": 1.0,
+            "accuracy": 0.34
+          },
+          {
+            "min_confidence": 0.5,
+            "share": 0.89,
+            "accuracy": 0.3595505617977528
+          },
+          {
+            "min_confidence": 0.7,
+            "share": 0.64,
+            "accuracy": 0.4166666666666667
+          },
+          {
+            "min_confidence": 0.8,
+            "share": 0.53,
+            "accuracy": 0.4528301886792453
+          },
+          {
+            "min_confidence": 0.9,
+            "share": 0.3933333333333333,
+            "accuracy": 0.5084745762711864
+          },
+          {
+            "min_confidence": 0.95,
+            "share": 0.2733333333333333,
+            "accuracy": 0.6097560975609756
+          },
+          {
+            "min_confidence": 0.99,
+            "share": 0.10666666666666667,
+            "accuracy": 0.8125
+          }
+        ]
+      },
+      "v1": {
+        "n": 300,
+        "accuracy": 0.03333333333333333,
+        "accuracy_ci": [
+          0.013333333333333334,
+          0.05333333333333334
+        ],
+        "balanced_accuracy": 0.08106060606060607,
+        "per_class": [
+          {
+            "class": "basophil",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 1
+          },
+          {
+            "class": "eosinophil",
+            "recall": 0.36363636363636365,
+            "precision": 0.09876543209876543,
+            "support": 22
+          },
+          {
+            "class": "lymphocyte",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 53
+          },
+          {
+            "class": "monocyte",
+            "recall": 0.041666666666666664,
+            "precision": 0.6666666666666666,
+            "support": 48
+          },
+          {
+            "class": "neutrophil",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 176
+          }
+        ],
+        "predicted": {
+          "eosinophil": 81,
+          "erythroblast": 201,
+          "immature_granulocyte": 13,
+          "lymphocyte": 2,
+          "monocyte": 3
+        }
+      }
+    }
+  },
+  "final": {
+    "pbc_test": {
+      "n": 2669,
+      "accuracy": 0.9370550768077932,
+      "accuracy_ci": [
+        0.9284282502810041,
+        0.9460472086923941
+      ],
+      "balanced_accuracy": 0.9427443163410484,
+      "per_class": [
+        {
+          "class": "basophil",
+          "recall": 0.9906542056074766,
+          "precision": 0.8760330578512396,
+          "support": 214
+        },
+        {
+          "class": "eosinophil",
+          "recall": 0.9846678023850085,
+          "precision": 1.0,
+          "support": 587
+        },
+        {
+          "class": "erythroblast",
+          "recall": 0.9513513513513514,
+          "precision": 0.8756218905472637,
+          "support": 185
+        },
+        {
+          "class": "immature_granulocyte",
+          "recall": 0.8717472118959108,
+          "precision": 0.9089147286821705,
+          "support": 538
+        },
+        {
+          "class": "lymphocyte",
+          "recall": 0.9439655172413793,
+          "precision": 0.9049586776859504,
+          "support": 232
+        },
+        {
+          "class": "monocyte",
+          "recall": 0.9301470588235294,
+          "precision": 0.8605442176870748,
+          "support": 272
+        },
+        {
+          "class": "neutrophil",
+          "recall": 0.9266770670826833,
+          "precision": 0.9966442953020134,
+          "support": 641
+        }
+      ],
+      "predicted": {
+        "basophil": 242,
+        "eosinophil": 578,
+        "erythroblast": 201,
+        "immature_granulocyte": 516,
+        "lymphocyte": 242,
+        "monocyte": 294,
+        "neutrophil": 596
+      },
+      "macro_f1": 0.9289130019011427,
+      "confusion_matrix": [
+        [
+          212,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          5,
+          578,
+          0,
+          0,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          176,
+          1,
+          6,
+          2,
+          0
+        ],
+        [
+          23,
+          0,
+          16,
+          469,
+          4,
+          24,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          219,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          6,
+          11,
+          253,
+          0
+        ],
+        [
+          2,
+          0,
+          5,
+          38,
+          0,
+          2,
+          594
+        ]
+      ],
+      "status_line": {
+        "held_back": 67,
+        "errors": 168,
+        "errors_held_back": 31,
+        "accuracy_on_confident": 0.9473481936971561,
+        "share_confident": 0.974896965155489,
+        "flagged_unfamiliar": 0.0014986886474334957
+      },
+      "by_confidence": [
+        {
+          "min_confidence": 0.0,
+          "share": 1.0,
+          "accuracy": 0.9370550768077932
+        },
+        {
+          "min_confidence": 0.5,
+          "share": 0.979018358935931,
+          "accuracy": 0.9464217374665136
+        },
+        {
+          "min_confidence": 0.7,
+          "share": 0.9250655676283253,
+          "accuracy": 0.9716484406642365
+        },
+        {
+          "min_confidence": 0.8,
+          "share": 0.885724990633196,
+          "accuracy": 0.9813874788494078
+        },
+        {
+          "min_confidence": 0.9,
+          "share": 0.833645560134882,
+          "accuracy": 0.9874157303370786
+        },
+        {
+          "min_confidence": 0.95,
+          "share": 0.7853128512551517,
+          "accuracy": 0.9923664122137404
+        },
+        {
+          "min_confidence": 0.99,
+          "share": 0.6380666916448108,
+          "accuracy": 0.9982384028185555
+        }
+      ],
+      "macro_f1_ci": [
+        0.9186380538422739,
+        0.939125275807189
+      ],
+      "balanced_accuracy_ci": [
+        0.9336044390542729,
+        0.9515565907299133
+      ],
+      "ece": 0.014939976362710381,
+      "reliability": [
+        {
+          "bin_low": 0.13333333333333333,
+          "bin_high": 0.2,
+          "n": 1,
+          "mean_confidence": 0.1904311627149582,
+          "accuracy": 0.0
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.26666666666666666,
+          "n": 4,
+          "mean_confidence": 0.2511085569858551,
+          "accuracy": 0.25
+        },
+        {
+          "bin_low": 0.26666666666666666,
+          "bin_high": 0.3333333333333333,
+          "n": 7,
+          "mean_confidence": 0.29825231432914734,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "bin_low": 0.3333333333333333,
+          "bin_high": 0.4,
+          "n": 15,
+          "mean_confidence": 0.3674181401729584,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.4666666666666667,
+          "n": 16,
+          "mean_confidence": 0.4384571313858032,
+          "accuracy": 0.4375
+        },
+        {
+          "bin_low": 0.4666666666666667,
+          "bin_high": 0.5333333333333333,
+          "n": 33,
+          "mean_confidence": 0.5036415457725525,
+          "accuracy": 0.6363636363636364
+        },
+        {
+          "bin_low": 0.5333333333333333,
+          "bin_high": 0.6,
+          "n": 45,
+          "mean_confidence": 0.5671327114105225,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "bin_low": 0.6,
+          "bin_high": 0.6666666666666666,
+          "n": 59,
+          "mean_confidence": 0.6324845552444458,
+          "accuracy": 0.4915254237288136
+        },
+        {
+          "bin_low": 0.6666666666666666,
+          "bin_high": 0.7333333333333333,
+          "n": 46,
+          "mean_confidence": 0.7037870287895203,
+          "accuracy": 0.6304347826086957
+        },
+        {
+          "bin_low": 0.7333333333333333,
+          "bin_high": 0.8,
+          "n": 79,
+          "mean_confidence": 0.7658178806304932,
+          "accuracy": 0.7974683544303798
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.8666666666666667,
+          "n": 84,
+          "mean_confidence": 0.836645245552063,
+          "accuracy": 0.9047619047619048
+        },
+        {
+          "bin_low": 0.8666666666666667,
+          "bin_high": 0.9333333333333333,
+          "n": 128,
+          "mean_confidence": 0.90439772605896,
+          "accuracy": 0.8828125
+        },
+        {
+          "bin_low": 0.9333333333333333,
+          "bin_high": 1.0,
+          "n": 2152,
+          "mean_confidence": 0.9928842782974243,
+          "accuracy": 0.9902416356877324
+        }
+      ],
+      "subtypes": [
+        {
+          "subtype": "Band neutrophil",
+          "n": 323,
+          "recall": 0.8792569659442725
+        },
+        {
+          "subtype": "Basophil",
+          "n": 214,
+          "recall": 0.9906542056074766
+        },
+        {
+          "subtype": "Eosinophil",
+          "n": 587,
+          "recall": 0.9846678023850085
+        },
+        {
+          "subtype": "Erythroblast",
+          "n": 185,
+          "recall": 0.9513513513513514
+        },
+        {
+          "subtype": "Immature granulocyte (unspecified)",
+          "n": 26,
+          "recall": 0.8846153846153846
+        },
+        {
+          "subtype": "Lymphocyte",
+          "n": 232,
+          "recall": 0.9439655172413793
+        },
+        {
+          "subtype": "Metamyelocyte",
+          "n": 200,
+          "recall": 0.87
+        },
+        {
+          "subtype": "Monocyte",
+          "n": 272,
+          "recall": 0.9301470588235294
+        },
+        {
+          "subtype": "Myelocyte",
+          "n": 222,
+          "recall": 0.8828828828828829
+        },
+        {
+          "subtype": "Neutrophil (unspecified)",
+          "n": 13,
+          "recall": 1.0
+        },
+        {
+          "subtype": "Promyelocyte",
+          "n": 90,
+          "recall": 0.8444444444444444
+        },
+        {
+          "subtype": "Segmented neutrophil",
+          "n": 305,
+          "recall": 0.9737704918032787
+        }
+      ]
+    },
+    "external_test_halves": {
+      "bccd": {
+        "n": 177,
+        "accuracy": 0.847457627118644,
+        "accuracy_ci": [
+          0.7966101694915254,
+          0.8983050847457628
+        ],
+        "balanced_accuracy": 0.6846688605512135,
+        "per_class": [
+          {
+            "class": "basophil",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 2
+          },
+          {
+            "class": "eosinophil",
+            "recall": 0.6590909090909091,
+            "precision": 0.7631578947368421,
+            "support": 44
+          },
+          {
+            "class": "lymphocyte",
+            "recall": 0.9411764705882353,
+            "precision": 0.8888888888888888,
+            "support": 17
+          },
+          {
+            "class": "monocyte",
+            "recall": 0.9,
+            "precision": 0.9,
+            "support": 10
+          },
+          {
+            "class": "neutrophil",
+            "recall": 0.9230769230769231,
+            "precision": 0.8648648648648649,
+            "support": 104
+          }
+        ],
+        "predicted": {
+          "eosinophil": 38,
+          "lymphocyte": 18,
+          "monocyte": 10,
+          "neutrophil": 111
+        },
+        "macro_f1": 0.6829252086540799,
+        "confusion_matrix": [
+          [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            29,
+            0,
+            0,
+            1,
+            0,
+            14
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            9,
+            1
+          ],
+          [
+            0,
+            8,
+            0,
+            0,
+            0,
+            0,
+            96
+          ]
+        ],
+        "status_line": {
+          "held_back": 7,
+          "errors": 27,
+          "errors_held_back": 1,
+          "accuracy_on_confident": 0.8470588235294118,
+          "share_confident": 0.96045197740113,
+          "flagged_unfamiliar": 0.01694915254237288
+        },
+        "by_confidence": [
+          {
+            "min_confidence": 0.0,
+            "share": 1.0,
+            "accuracy": 0.847457627118644
+          },
+          {
+            "min_confidence": 0.5,
+            "share": 0.9830508474576272,
+            "accuracy": 0.8448275862068966
+          },
+          {
+            "min_confidence": 0.7,
+            "share": 0.7627118644067796,
+            "accuracy": 0.9333333333333333
+          },
+          {
+            "min_confidence": 0.8,
+            "share": 0.6440677966101694,
+            "accuracy": 0.956140350877193
+          },
+          {
+            "min_confidence": 0.9,
+            "share": 0.519774011299435,
+            "accuracy": 0.9782608695652174
+          },
+          {
+            "min_confidence": 0.95,
+            "share": 0.4293785310734463,
+            "accuracy": 0.9736842105263158
+          },
+          {
+            "min_confidence": 0.99,
+            "share": 0.23163841807909605,
+            "accuracy": 0.975609756097561
+          }
+        ]
+      },
+      "jtsc": {
+        "n": 151,
+        "accuracy": 0.8874172185430463,
+        "accuracy_ci": [
+          0.8344370860927153,
+          0.9403973509933775
+        ],
+        "balanced_accuracy": 0.6370370370370371,
+        "per_class": [
+          {
+            "class": "basophil",
+            "recall": 0.0,
+            "precision": 0.0,
+            "support": 1
+          },
+          {
+            "class": "eosinophil",
+            "recall": 0.6363636363636364,
+            "precision": 0.7,
+            "support": 11
+          },
+          {
+            "class": "lymphocyte",
+            "recall": 0.8518518518518519,
+            "precision": 0.8214285714285714,
+            "support": 27
+          },
+          {
+            "class": "monocyte",
+            "recall": 0.7083333333333334,
+            "precision": 0.9444444444444444,
+            "support": 24
+          },
+          {
+            "class": "neutrophil",
+            "recall": 0.9886363636363636,
+            "precision": 0.9456521739130435,
+            "support": 88
+          }
+        ],
+        "predicted": {
+          "basophil": 2,
+          "eosinophil": 10,
+          "erythroblast": 1,
+          "lymphocyte": 28,
+          "monocyte": 18,
+          "neutrophil": 92
+        },
+        "macro_f1": 0.5465367965367965,
+        "confusion_matrix": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            0,
+            0,
+            1,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            0,
+            23,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            4,
+            17,
+            2
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            87
+          ]
+        ],
+        "status_line": {
+          "held_back": 24,
+          "errors": 17,
+          "errors_held_back": 7,
+          "accuracy_on_confident": 0.9212598425196851,
+          "share_confident": 0.8410596026490066,
+          "flagged_unfamiliar": 0.11920529801324503
+        },
+        "by_confidence": [
+          {
+            "min_confidence": 0.0,
+            "share": 1.0,
+            "accuracy": 0.8874172185430463
+          },
+          {
+            "min_confidence": 0.5,
+            "share": 0.9536423841059603,
+            "accuracy": 0.9166666666666666
+          },
+          {
+            "min_confidence": 0.7,
+            "share": 0.8410596026490066,
+            "accuracy": 0.9606299212598425
+          },
+          {
+            "min_confidence": 0.8,
+            "share": 0.8013245033112583,
+            "accuracy": 0.9669421487603306
+          },
+          {
+            "min_confidence": 0.9,
+            "share": 0.6887417218543046,
+            "accuracy": 0.9807692307692307
+          },
+          {
+            "min_confidence": 0.95,
+            "share": 0.6026490066225165,
+            "accuracy": 1.0
+          },
+          {
+            "min_confidence": 0.99,
+            "share": 0.45695364238410596,
+            "accuracy": 1.0
+          }
+        ]
+      },
+      "cvblog": {
+        "n": 52,
+        "accuracy": 0.6153846153846154,
+        "accuracy_ci": [
+          0.4807692307692308,
+          0.75
+        ],
+        "balanced_accuracy": 0.5061661506707946,
+        "per_class": [
+          {
+            "class": "basophil",
+            "recall": 0.5,
+            "precision": 0.5,
+            "support": 2
+          },
+          {
+            "class": "eosinophil",
+            "recall": 0.16666666666666666,
+            "precision": 1.0,
+            "support": 6
+          },
+          {
+            "class": "lymphocyte",
+            "recall": 0.8421052631578947,
+            "precision": 0.6956521739130435,
+            "support": 19
+          },
+          {
+            "class": "monocyte",
+            "recall": 0.375,
+            "precision": 0.25,
+            "support": 8
+          },
+          {
+            "class": "neutrophil",
+            "recall": 0.6470588235294118,
+            "precision": 0.9166666666666666,
+            "support": 17
+          }
+        ],
+        "predicted": {
+          "basophil": 2,
+          "eosinophil": 1,
+          "erythroblast": 2,
+          "lymphocyte": 23,
+          "monocyte": 12,
+          "neutrophil": 12
+        },
+        "macro_f1": 0.4343732895457033,
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1,
+            3,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            16,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            3,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3,
+            3,
+            11
+          ]
+        ],
+        "status_line": {
+          "held_back": 21,
+          "errors": 20,
+          "errors_held_back": 9,
+          "accuracy_on_confident": 0.6451612903225806,
+          "share_confident": 0.5961538461538461,
+          "flagged_unfamiliar": 0.25
+        },
+        "by_confidence": [
+          {
+            "min_confidence": 0.0,
+            "share": 1.0,
+            "accuracy": 0.6153846153846154
+          },
+          {
+            "min_confidence": 0.5,
+            "share": 0.8269230769230769,
+            "accuracy": 0.7209302325581395
+          },
+          {
+            "min_confidence": 0.7,
+            "share": 0.6346153846153846,
+            "accuracy": 0.8484848484848485
+          },
+          {
+            "min_confidence": 0.8,
+            "share": 0.5384615384615384,
+            "accuracy": 0.8571428571428571
+          },
+          {
+            "min_confidence": 0.9,
+            "share": 0.4807692307692308,
+            "accuracy": 0.88
+          },
+          {
+            "min_confidence": 0.95,
+            "share": 0.36538461538461536,
+            "accuracy": 0.9473684210526315
+          },
+          {
+            "min_confidence": 0.99,
+            "share": 0.28846153846153844,
+            "accuracy": 1.0
+          }
+        ]
+      }
+    },
+    "external_pooled": {
+      "n": 380,
+      "accuracy": 0.8315789473684211,
+      "accuracy_ci": [
+        0.7921052631578948,
+        0.868421052631579
+      ],
+      "balanced_accuracy": 0.6596558211226029,
+      "per_class": [
+        {
+          "class": "basophil",
+          "recall": 0.2,
+          "precision": 0.25,
+          "support": 5
+        },
+        {
+          "class": "eosinophil",
+          "recall": 0.6065573770491803,
+          "precision": 0.7551020408163265,
+          "support": 61
+        },
+        {
+          "class": "lymphocyte",
+          "recall": 0.873015873015873,
+          "precision": 0.7971014492753623,
+          "support": 63
+        },
+        {
+          "class": "monocyte",
+          "recall": 0.6904761904761905,
+          "precision": 0.725,
+          "support": 42
+        },
+        {
+          "class": "neutrophil",
+          "recall": 0.9282296650717703,
+          "precision": 0.9023255813953488,
+          "support": 209
+        }
+      ],
+      "predicted": {
+        "basophil": 4,
+        "eosinophil": 49,
+        "erythroblast": 3,
+        "lymphocyte": 69,
+        "monocyte": 40,
+        "neutrophil": 215
+      }
+    }
+  },
+  "app_pipeline": {
+    "pbc_test_cells": {
+      "n": 2669,
+      "refused_by_gatekeeper": 0.0,
+      "accuracy_when_shown": 0.9370550768077932,
+      "shown_as_confident": 0.974896965155489,
+      "accuracy_when_confident": 0.9473481936971561
+    },
+    "bccd_test_cells": {
+      "n": 177,
+      "refused_by_gatekeeper": 0.0,
+      "accuracy_when_shown": 0.847457627118644,
+      "shown_as_confident": 0.96045197740113,
+      "accuracy_when_confident": 0.8470588235294118
+    },
+    "jtsc_test_cells": {
+      "n": 151,
+      "refused_by_gatekeeper": 0.0,
+      "accuracy_when_shown": 0.8874172185430463,
+      "shown_as_confident": 0.8410596026490066,
+      "accuracy_when_confident": 0.9212598425196851
+    },
+    "cvblog_test_cells": {
+      "n": 52,
+      "refused_by_gatekeeper": 0.0,
+      "accuracy_when_shown": 0.6153846153846154,
+      "shown_as_confident": 0.5961538461538461,
+      "accuracy_when_confident": 0.6451612903225806
+    },
+    "smear_without_white_cell": {
+      "n": 888,
+      "refused_by_gatekeeper": 0.9943693693693694
+    },
+    "cifar_unseen_photos": {
+      "n": 1000,
+      "refused_by_gatekeeper": 0.999
+    },
+    "synthetic_new_seed": {
+      "n": 600,
+      "refused_by_gatekeeper": 0.9983333333333333
+    },
+    "pattern_type_never_trained": {
+      "n": 200,
+      "refused_by_gatekeeper": 0.98
+    },
+    "scikit_image_photos": {
+      "n": 19,
+      "refused_by_gatekeeper": 1.0
+    },
+    "user_report_cases": [
+      {
+        "image": "black A4 sheet photo",
+        "p_white_cell": 1.6217770735238446e-06,
+        "gate_says": "not a blood smear",
+        "refused": true
+      },
+      {
+        "image": "black A4 sheet, warm light",
+        "p_white_cell": 1.4180213838699274e-06,
+        "gate_says": "not a blood smear",
+        "refused": true
+      },
+      {
+        "image": "white A4 sheet photo",
+        "p_white_cell": 2.9022910894127563e-05,
+        "gate_says": "not a blood smear",
+        "refused": true
+      },
+      {
+        "image": "blue folder photo",
+        "p_white_cell": 9.2647042038152e-06,
+        "gate_says": "not a blood smear",
+        "refused": true
+      },
+      {
+        "image": "printed document",
+        "p_white_cell": 9.27112705539912e-05,
+        "gate_says": "smear, no white cell",
+        "refused": true
+      },
+      {
+        "image": "app screenshot",
+        "p_white_cell": 0.008434804156422615,
+        "gate_says": "not a blood smear",
+        "refused": true
+      },
+      {
+        "image": "everyday photo 1",
+        "p_white_cell": 8.615650699539401e-07,
+        "gate_says": "not a blood smear",
+        "refused": true
+      },
+      {
+        "image": "everyday photo 2",
+        "p_white_cell": 3.0339551813085563e-06,
+        "gate_says": "not a blood smear",
+        "refused": true
+      },
+      {
+        "image": "random noise",
+        "p_white_cell": 0.00046392332296818495,
+        "gate_says": "not a blood smear",
+        "refused": true
+      }
+    ]
+  },
+  "gate_validation": {
+    "threshold_p_white": 0.3,
+    "train_minutes": 12.2,
+    "validation_accuracy": 0.9988782950084127,
+    "validation_cells_accepted": 1.0,
+    "validation_non_cells_accepted": 0.0009017132551848512,
+    "white_cells_accepted": {
+      "pbc_test": 1.0,
+      "bccd_test_half": 1.0,
+      "jtsc_test_half": 1.0,
+      "cvblog_test_half": 1.0
+    },
+    "smear_patches_without_white_cell": {
+      "accepted_as_white_cell": 0.00563063063063063,
+      "called_smear_no_wbc": 0.990990990990991
+    },
+    "not_smear_accepted_as_white_cell": {
+      "cifar_unseen_photos": 0.001,
+      "synthetic_new_seed": 0.0016666666666666668,
+      "pattern_type_never_trained": 0.02,
+      "scikit_image_photos": 0.0
+    }
+  },
+  "simulated_phone_photos": {
+    "pbc_single_cell_photos": {
+      "n": 150,
+      "refused": 0.0,
+      "a_white_cell_classified": 1.0,
+      "correct_when_classified": 0.8933333333333333,
+      "correct_on_the_same_images_unaltered": 0.9266666666666666
+    },
+    "bccd_field_photos": {
+      "n": 79,
+      "refused": 0.012658227848101266,
+      "white_cell_classified": 0.6962025316455697,
+      "finder_found_nothing": 0.0,
+      "all_cut_outs_rejected": 0.2911392405063291,
+      "a_white_cell_classified": 0.6962025316455697
+    },
+    "note": "Simulated: round field on black, color cast, noise, blur and JPEG. Not real phone photos. BCCD fields are limited to those whose cells the classifier never trained on."
+  },
+  "gate_unseen_lab_bccd": {
+    "threshold_p_white": 0.3,
+    "train_minutes": 13.6,
+    "validation_accuracy": 0.9976019184652278,
+    "validation_cells_accepted": 1.0,
+    "validation_non_cells_accepted": 0.0,
+    "white_cells_accepted": {
+      "pbc_test": 1.0,
+      "bccd_test_half": 0.9322033898305084,
+      "bccd_all_unseen_lab": 0.9344729344729344,
+      "jtsc_test_half": 1.0,
+      "cvblog_test_half": 1.0
+    },
+    "smear_patches_without_white_cell": {
+      "accepted_as_white_cell": 0.0,
+      "called_smear_no_wbc": 0.9572072072072072
+    },
+    "not_smear_accepted_as_white_cell": {
+      "cifar_unseen_photos": 0.001,
+      "synthetic_new_seed": 0.0016666666666666668,
+      "pattern_type_never_trained": 0.0,
+      "scikit_image_photos": 0.0
+    }
+  },
+  "export": {
+    "parity": {
+      "classifier_max_logit_diff": 4.291534423828125e-06,
+      "classifier_same_top_class": 1.0,
+      "gate_max_logit_diff": 1.9073486328125e-06
+    },
+    "speed": {
+      "classifier_ms": 2.98,
+      "gate_ms": 1.57,
+      "classifier_mb": 4.7,
+      "gate_mb": 1.18
+    }
+  },
+  "choices": {
+    "temperature": 0.8134808869836997,
+    "confidence_threshold": 0.5094038248062134,
+    "ood_threshold": 28.259023666381836,
+    "gate_threshold": 0.3
+  }
+}

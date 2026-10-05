@@ -1,0 +1,69 @@
+{
+  "note": "Demonstration of scripts/finetune_local.py. For each lab, the starting model is the leave-one-lab-out model that never saw that lab. The lab's training-half cells were used as the 'local' folder; the script held back 30% of them, trained on the rest, and scored the held-back cells before and after. Small test sets, so read these as rough.",
+  "labs": {
+    "jtsc": {
+      "local_cells": 149,
+      "local_train": 84,
+      "local_validation": 21,
+      "local_test": 44,
+      "epochs": 6,
+      "minutes": 3.0,
+      "before": {
+        "n": 44,
+        "accuracy": 0.29545454545454547,
+        "balanced_accuracy": 0.3501602564102564,
+        "macro_f1": 0.2306451612903226,
+        "recall_by_class": {
+          "eosinophil": 0.3333333333333333,
+          "lymphocyte": 0.875,
+          "monocyte": 0.0,
+          "neutrophil": 0.19230769230769232
+        }
+      },
+      "after": {
+        "n": 44,
+        "accuracy": 0.8636363636363636,
+        "balanced_accuracy": 0.8162774725274725,
+        "macro_f1": 0.8112554112554112,
+        "recall_by_class": {
+          "eosinophil": 1.0,
+          "lymphocyte": 0.875,
+          "monocyte": 0.42857142857142855,
+          "neutrophil": 0.9615384615384616
+        }
+      }
+    },
+    "bccd": {
+      "local_cells": 174,
+      "local_train": 99,
+      "local_validation": 23,
+      "local_test": 52,
+      "epochs": 6,
+      "minutes": 2.9,
+      "before": {
+        "n": 52,
+        "accuracy": 0.4230769230769231,
+        "balanced_accuracy": 0.5234904880066171,
+        "macro_f1": 0.47655279503105585,
+        "recall_by_class": {
+          "eosinophil": 0.7692307692307693,
+          "lymphocyte": 0.4,
+          "monocyte": 0.6666666666666666,
+          "neutrophil": 0.25806451612903225
+        }
+      },
+      "after": {
+        "n": 52,
+        "accuracy": 0.8076923076923077,
+        "balanced_accuracy": 0.6598842018196858,
+        "macro_f1": 0.7312801932367149,
+        "recall_by_class": {
+          "eosinophil": 0.5384615384615384,
+          "lymphocyte": 0.8,
+          "monocyte": 0.3333333333333333,
+          "neutrophil": 0.967741935483871
+        }
+      }
+    }
+  }
+}

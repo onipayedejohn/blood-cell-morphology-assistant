@@ -1,0 +1,36 @@
+{
+  "images": 13344,
+  "exact_duplicates": 14,
+  "near_duplicate_links": 0,
+  "groups": 13330,
+  "split_counts": {
+    "train": 9340,
+    "test": 2669,
+    "val": 1335
+  },
+  "class_counts": {
+    "neutrophil": 3205,
+    "eosinophil": 2933,
+    "immature_granulocyte": 2692,
+    "monocyte": 1358,
+    "lymphocyte": 1161,
+    "basophil": 1073,
+    "erythroblast": 922
+  },
+  "subtype_counts": {
+    "Eosinophil": 2933,
+    "Segmented neutrophil": 1594,
+    "Band neutrophil": 1561,
+    "Monocyte": 1358,
+    "Lymphocyte": 1161,
+    "Basophil": 1073,
+    "Myelocyte": 1069,
+    "Metamyelocyte": 959,
+    "Erythroblast": 922,
+    "Promyelocyte": 519,
+    "Immature granulocyte (unspecified)": 145,
+    "Neutrophil (unspecified)": 50
+  },
+  "bccd_wbc_crops": 358,
+  "bccd_rbc_only_crops": 150
+}

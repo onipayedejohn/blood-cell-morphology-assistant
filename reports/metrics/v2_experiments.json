@@ -1,0 +1,56 @@
+{
+  "note": "Leave-BCCD-out runs compared while developing version 2. Accuracy on all 351 BCCD cells (a lab none of these models saw) and on the PBC validation split. Single runs, so differences of a few points are within run-to-run noise. Measured with the Keras checkpoints before calibration.",
+  "runs": [
+    {
+      "name": "v1",
+      "setup": "PBC only, light augmentation",
+      "bccd_unseen_accuracy": 0.017,
+      "note": "v1 on the standard-framing arrays; 0.000 on the plain arrays it was trained for"
+    },
+    {
+      "name": "v2a",
+      "setup": "from scratch, 15 epochs, strong augmentation, three external labs minus BCCD, plain centre crop",
+      "bccd_unseen_accuracy": 0.504,
+      "bccd_unseen_macro_f1": 0.39,
+      "pbc_val_accuracy": 0.915
+    },
+    {
+      "name": "v2b (kept)",
+      "setup": "start from v1 weights, 10 epochs, strong plus mild augmentation with padding, standard framing with background balance",
+      "bccd_unseen_accuracy": 0.507,
+      "bccd_unseen_macro_f1": 0.439,
+      "pbc_val_accuracy": 0.95
+    },
+    {
+      "name": "v2c (dropped)",
+      "setup": "as v2b plus stain-strength normalization: optical density scaled so its 98th percentile (roughly the darkest 2% of pixels, the nucleus) matches the PBC median",
+      "bccd_unseen_accuracy": 0.405,
+      "bccd_unseen_macro_f1": 0.349,
+      "pbc_val_accuracy": 0.954
+    },
+    {
+      "name": "mn (stopped)",
+      "setup": "MobileNet v1 pretrained on ImageNet (official Keras weights), cut after block 11, 96 px, first 5 blocks frozen, otherwise as v2b",
+      "bccd_unseen_accuracy_after_1_epoch": 0.447,
+      "bccd_unseen_macro_f1_after_1_epoch": 0.489,
+      "pbc_val_accuracy_after_1_epoch": 0.91,
+      "note": "About 20 minutes per epoch on 2 CPU cores, against 3.5 for the small CNN, so the three runs needed (two leave-one-lab-out, one final) did not fit. Macro-F1 after one epoch was already above the kept model's, so this is the first thing to try with a GPU."
+    }
+  ],
+  "development_measurements": {
+    "note": "Measured while developing version 2 to understand the differences between labs. Not part of the evaluation.",
+    "nucleus_extent_over_image_side_median": {
+      "pbc_400_random_images": 0.37,
+      "bccd": 0.66,
+      "jtsc": 0.55,
+      "cvblog": 0.53
+    },
+    "optical_density_98th_percentile_median_after_background_balance": {
+      "pbc_every_20th_image": 3.5,
+      "bccd": 1.2,
+      "jtsc": 4.4,
+      "cvblog": 2.8
+    },
+    "augmentation_speed": "One image at a time: about 8 minutes per epoch of augmentation alone on 2 CPU cores (observed, not logged). Batched: about 234 ms per batch of 64, about 3.5 minutes per training epoch in total (see the training logs)."
+  }
+}

@@ -26,8 +26,8 @@ from bloodsmear.explain import overlay  # noqa: E402
 from bloodsmear.inference import CellClassifier  # noqa: E402
 from bloodsmear.preprocess import resize_uint8  # noqa: E402
 
-FIG = ROOT / "reports" / "figures"
-MET = ROOT / "reports" / "metrics"
+FIG = ROOT / "reports" / "figures" / "v1"  # version 1 figures; version 2 is make_figures_v2.py
+MET = ROOT / "reports" / "metrics" / "v1"
 BLUE, ORANGE, GREY, INK, MUTED = "#2a78d6", "#eb6834", "#c9ccd9", "#1c1d2b", "#5b5e70"
 RAMP = LinearSegmentedColormap.from_list("blue", ["#f6f7fb", "#cde2fb", "#86b6ef", "#3987e5", "#1c5cab", "#0d366b"])
 SHORT = {"immature_granulocyte": "Immature gran.", "erythroblast": "Erythroblast"}
@@ -205,7 +205,7 @@ def distances(clf):
 def main():
     FIG.mkdir(parents=True, exist_ok=True)
     test = json.loads((MET / "test_metrics.json").read_text())
-    clf = CellClassifier()
+    clf = CellClassifier(ROOT / "models" / "v1")
     confusion(test)
     per_class(test)
     reliability(test)

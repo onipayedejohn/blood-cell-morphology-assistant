@@ -1,0 +1,752 @@
+lab,path,class,label,split
+bccd,bccd_labeled/BCCD_cropped/Basophil/BloodImage_00008_1.jpg,basophil,0,test
+bccd,bccd_labeled/BCCD_cropped/Basophil/BloodImage_00132_1.jpg,basophil,0,test
+bccd,bccd_labeled/BCCD_cropped/Basophil/BloodImage_00171_1.jpg,basophil,0,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00009_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00017_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00023_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00026_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00028_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00036_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00041_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00042_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00045_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00048_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00049_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00056_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00057_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00058_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00059_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00062_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00064_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00068_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00069_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00075_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00088_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00090_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00093_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00094_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00095_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00096_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00097_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00100_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00101_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00107_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00108_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00109_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00114_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00123_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00133_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00135_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00137_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00139_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00141_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00143_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00144_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00147_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00149_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00152_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00154_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00158_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00160_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00162_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00165_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00177_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00180_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00183_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00184_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00187_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00200_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00202_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00204_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00208_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00219_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00220_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00226_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00228_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00236_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00240_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00251_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00253_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00259_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00261_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00265_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00269_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00271_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00274_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00277_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00284_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00289_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00290_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00292_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00299_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00319_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00344_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00345_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00352_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00353_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00359_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00376_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00383_1.jpg,eosinophil,1,train
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00387_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00410_1.jpg,eosinophil,1,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00020_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00021_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00037_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00038_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00047_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00054_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00055_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00076_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00089_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00099_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00111_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00120_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00134_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00140_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00148_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00157_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00191_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00206_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00211_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00217_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00224_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00229_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00233_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00241_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00254_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00258_1.jpg,lymphocyte,4,train
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00264_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00270_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00275_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00283_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00305_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00347_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00356_1.jpg,lymphocyte,4,test
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00015_1.jpg,monocyte,5,test
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00040_1.jpg,monocyte,5,train
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00083_1.jpg,monocyte,5,train
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00104_1.jpg,monocyte,5,train
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00110_1.jpg,monocyte,5,train
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00127_1.jpg,monocyte,5,test
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00196_1.jpg,monocyte,5,train
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00225_1.jpg,monocyte,5,test
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00232_1.jpg,monocyte,5,test
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00255_1.jpg,monocyte,5,test
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00262_1.jpg,monocyte,5,test
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00278_1.jpg,monocyte,5,train
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00281_1.jpg,monocyte,5,test
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00291_1.jpg,monocyte,5,train
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00309_1.jpg,monocyte,5,test
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00312_1.jpg,monocyte,5,train
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00318_1.jpg,monocyte,5,train
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00323_1.jpg,monocyte,5,test
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00335_1.jpg,monocyte,5,train
+bccd,bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00342_1.jpg,monocyte,5,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00000_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00001_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00002_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00003_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00004_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00005_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00006_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00007_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00011_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00012_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00013_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00014_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00016_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00018_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00019_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00022_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00024_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00029_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00030_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00032_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00033_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00035_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00039_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00046_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00050_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00052_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00053_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00063_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00066_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00067_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00071_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00072_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00073_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00074_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00077_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00078_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00079_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00081_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00082_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00086_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00087_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00091_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00092_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00098_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00106_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00112_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00113_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00115_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00124_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00125_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00126_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00130_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00136_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00142_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00145_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00150_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00156_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00159_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00161_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00163_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00164_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00166_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00167_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00168_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00169_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00170_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00172_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00174_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00175_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00178_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00179_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00182_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00189_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00190_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00192_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00197_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00198_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00199_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00201_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00203_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00205_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00207_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00209_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00210_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00212_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00214_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00215_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00216_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00218_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00221_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00222_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00223_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00227_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00230_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00231_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00234_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00235_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00237_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00239_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00243_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00244_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00245_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00246_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00247_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00248_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00250_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00252_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00256_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00257_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00260_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00263_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00266_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00267_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00268_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00272_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00273_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00276_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00279_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00280_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00282_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00285_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00287_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00288_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00293_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00294_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00295_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00296_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00297_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00298_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00300_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00301_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00302_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00303_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00304_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00307_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00308_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00310_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00311_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00314_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00315_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00317_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00320_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00322_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00324_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00325_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00326_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00327_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00329_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00330_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00331_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00332_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00333_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00334_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00336_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00337_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00338_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00339_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00340_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00341_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00343_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00346_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00348_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00349_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00350_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00351_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00354_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00355_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00357_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00360_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00361_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00362_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00364_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00365_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00366_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00367_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00368_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00369_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00370_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00371_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00372_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00375_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00377_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00378_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00379_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00381_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00382_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00384_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00385_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00386_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00388_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00389_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00390_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00391_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00392_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00393_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00395_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00396_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00397_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00398_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00400_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00402_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00403_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00404_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00405_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00407_1.jpg,neutrophil,6,test
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00408_1.jpg,neutrophil,6,train
+bccd,bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00409_1.jpg,neutrophil,6,test
+jtsc,zheng/Dataset 1/001.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/002.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/003.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/004.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/005.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/006.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/007.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/008.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/009.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/010.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/011.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/012.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/013.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/014.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/015.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/016.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/017.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/018.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/019.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/020.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/021.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/022.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/023.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/024.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/025.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/026.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/027.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/028.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/029.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/030.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/031.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/032.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/033.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/034.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/035.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/036.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/037.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/038.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/039.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/040.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/041.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/042.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/043.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/044.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/045.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/046.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/047.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/048.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/049.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/050.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/051.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/052.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/053.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/054.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/055.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/056.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/057.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/058.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/059.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/060.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/061.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/062.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/063.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/064.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/065.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/066.bmp,eosinophil,1,test
+jtsc,zheng/Dataset 1/067.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/068.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/069.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/070.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/071.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/072.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/073.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/074.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/075.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/076.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/077.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/078.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/079.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/080.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/081.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/082.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/083.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/084.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/085.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/086.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/087.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/088.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/089.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/090.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/091.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/092.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/093.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/094.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/095.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/096.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/097.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/098.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/099.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/100.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/101.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/102.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/103.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/104.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/105.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/106.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/107.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/108.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/109.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/110.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/111.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/112.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/113.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/114.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/115.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/116.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/117.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/118.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/119.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/120.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/121.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/122.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/123.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/124.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/125.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/126.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/127.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/128.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/129.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/130.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/131.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/132.bmp,eosinophil,1,train
+jtsc,zheng/Dataset 1/133.bmp,eosinophil,1,test
+jtsc,zheng/Dataset 1/134.bmp,eosinophil,1,train
+jtsc,zheng/Dataset 1/135.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/136.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/137.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/138.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/139.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/140.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/141.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/142.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/143.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/144.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/145.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/146.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/147.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/148.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/149.bmp,eosinophil,1,train
+jtsc,zheng/Dataset 1/150.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/151.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/152.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/153.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/154.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/155.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/156.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/157.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/158.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/159.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/160.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/161.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/162.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/163.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/164.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/165.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/166.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/167.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/168.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/169.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/170.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/171.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/172.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/173.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/174.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/175.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/176.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/177.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/178.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/179.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/180.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/181.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/182.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/183.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/184.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/185.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/186.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/187.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/188.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/189.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/190.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/191.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/192.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/193.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/194.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/195.bmp,eosinophil,1,test
+jtsc,zheng/Dataset 1/196.bmp,eosinophil,1,train
+jtsc,zheng/Dataset 1/197.bmp,eosinophil,1,test
+jtsc,zheng/Dataset 1/198.bmp,eosinophil,1,train
+jtsc,zheng/Dataset 1/199.bmp,eosinophil,1,train
+jtsc,zheng/Dataset 1/200.bmp,eosinophil,1,test
+jtsc,zheng/Dataset 1/201.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/202.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/203.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/204.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/205.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/206.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/207.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/208.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/209.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/210.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/211.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/212.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/213.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/214.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/215.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/216.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/217.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/218.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/219.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/220.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/221.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/222.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/223.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/224.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/225.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/226.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/227.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/228.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/229.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/230.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/231.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/232.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/233.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/234.bmp,eosinophil,1,test
+jtsc,zheng/Dataset 1/235.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/236.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/237.bmp,eosinophil,1,train
+jtsc,zheng/Dataset 1/238.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/239.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/240.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/241.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/242.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/243.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/244.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/245.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/246.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/247.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/248.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/249.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/250.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/251.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/252.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/253.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/254.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/255.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/256.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/257.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/258.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/259.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/260.bmp,eosinophil,1,train
+jtsc,zheng/Dataset 1/261.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/262.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/263.bmp,monocyte,5,test
+jtsc,zheng/Dataset 1/264.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/265.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/266.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/267.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/268.bmp,monocyte,5,train
+jtsc,zheng/Dataset 1/269.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/270.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/271.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/272.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/273.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/274.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/275.bmp,eosinophil,1,test
+jtsc,zheng/Dataset 1/276.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/277.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/278.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/279.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/280.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/281.bmp,neutrophil,6,train
+jtsc,zheng/Dataset 1/282.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/283.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/284.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/285.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/286.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/287.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/288.bmp,lymphocyte,4,train
+jtsc,zheng/Dataset 1/289.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/290.bmp,lymphocyte,4,test
+jtsc,zheng/Dataset 1/291.bmp,basophil,0,test
+jtsc,zheng/Dataset 1/292.bmp,eosinophil,1,test
+jtsc,zheng/Dataset 1/293.bmp,eosinophil,1,train
+jtsc,zheng/Dataset 1/294.bmp,eosinophil,1,test
+jtsc,zheng/Dataset 1/295.bmp,eosinophil,1,train
+jtsc,zheng/Dataset 1/296.bmp,eosinophil,1,test
+jtsc,zheng/Dataset 1/297.bmp,eosinophil,1,train
+jtsc,zheng/Dataset 1/298.bmp,eosinophil,1,test
+jtsc,zheng/Dataset 1/299.bmp,neutrophil,6,test
+jtsc,zheng/Dataset 1/300.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/001.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/002.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/003.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/004.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/005.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/006.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/007.bmp,eosinophil,1,test
+cvblog,zheng/Dataset 2/008.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/009.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/010.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/011.bmp,monocyte,5,train
+cvblog,zheng/Dataset 2/012.bmp,monocyte,5,test
+cvblog,zheng/Dataset 2/013.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/014.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/015.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/016.bmp,monocyte,5,test
+cvblog,zheng/Dataset 2/017.bmp,monocyte,5,train
+cvblog,zheng/Dataset 2/018.bmp,monocyte,5,train
+cvblog,zheng/Dataset 2/019.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/020.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/021.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/022.bmp,monocyte,5,test
+cvblog,zheng/Dataset 2/023.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/024.bmp,eosinophil,1,train
+cvblog,zheng/Dataset 2/025.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/026.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/027.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/028.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/029.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/030.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/031.bmp,monocyte,5,test
+cvblog,zheng/Dataset 2/032.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/033.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/034.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/035.bmp,monocyte,5,train
+cvblog,zheng/Dataset 2/036.bmp,monocyte,5,test
+cvblog,zheng/Dataset 2/037.bmp,monocyte,5,train
+cvblog,zheng/Dataset 2/038.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/039.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/040.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/041.bmp,monocyte,5,train
+cvblog,zheng/Dataset 2/042.bmp,monocyte,5,test
+cvblog,zheng/Dataset 2/043.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/044.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/045.bmp,monocyte,5,test
+cvblog,zheng/Dataset 2/046.bmp,monocyte,5,train
+cvblog,zheng/Dataset 2/047.bmp,monocyte,5,test
+cvblog,zheng/Dataset 2/048.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/049.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/050.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/051.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/052.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/053.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/054.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/055.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/056.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/057.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/058.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/059.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/060.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/061.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/062.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/063.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/064.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/065.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/066.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/067.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/068.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/069.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/070.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/071.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/072.bmp,eosinophil,1,test
+cvblog,zheng/Dataset 2/073.bmp,eosinophil,1,train
+cvblog,zheng/Dataset 2/074.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/075.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/076.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/077.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/078.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/079.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/080.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/081.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/082.bmp,neutrophil,6,test
+cvblog,zheng/Dataset 2/083.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/084.bmp,eosinophil,1,train
+cvblog,zheng/Dataset 2/085.bmp,eosinophil,1,test
+cvblog,zheng/Dataset 2/086.bmp,eosinophil,1,test
+cvblog,zheng/Dataset 2/087.bmp,eosinophil,1,train
+cvblog,zheng/Dataset 2/088.bmp,basophil,0,test
+cvblog,zheng/Dataset 2/089.bmp,basophil,0,test
+cvblog,zheng/Dataset 2/090.bmp,basophil,0,train
+cvblog,zheng/Dataset 2/091.bmp,lymphocyte,4,train
+cvblog,zheng/Dataset 2/092.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/093.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/094.bmp,lymphocyte,4,test
+cvblog,zheng/Dataset 2/095.bmp,eosinophil,1,test
+cvblog,zheng/Dataset 2/096.bmp,eosinophil,1,train
+cvblog,zheng/Dataset 2/097.bmp,eosinophil,1,test
+cvblog,zheng/Dataset 2/098.bmp,eosinophil,1,train
+cvblog,zheng/Dataset 2/099.bmp,neutrophil,6,train
+cvblog,zheng/Dataset 2/100.bmp,neutrophil,6,test

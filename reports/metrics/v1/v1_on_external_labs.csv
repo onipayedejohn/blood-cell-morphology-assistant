@@ -1,0 +1,752 @@
+lab,path,cls,pred,status,conf
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Basophil/BloodImage_00008_1.jpg,basophil,immature_granulocyte,unfamiliar,0.9772602915763855
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Basophil/BloodImage_00132_1.jpg,basophil,immature_granulocyte,unfamiliar,0.9999966621398926
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Basophil/BloodImage_00171_1.jpg,basophil,immature_granulocyte,unfamiliar,0.9999985694885254
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00009_1.jpg,eosinophil,erythroblast,unfamiliar,0.9985076785087585
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00017_1.jpg,eosinophil,erythroblast,unfamiliar,0.9999638795852661
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00023_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.5596199035644531
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00026_1.jpg,eosinophil,erythroblast,unfamiliar,0.9436739087104797
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00028_1.jpg,eosinophil,erythroblast,unfamiliar,0.7475605607032776
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00036_1.jpg,eosinophil,erythroblast,unfamiliar,0.5174531936645508
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00041_1.jpg,eosinophil,erythroblast,unfamiliar,0.8793742060661316
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00042_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9952841401100159
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00045_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9965625405311584
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00048_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9996718168258667
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00049_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9995177984237671
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00056_1.jpg,eosinophil,erythroblast,unfamiliar,0.8681628704071045
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00057_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9989790916442871
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00058_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999266862869263
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00059_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999241828918457
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00062_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9991483688354492
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00064_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.999411940574646
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00068_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9991869330406189
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00069_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.987432599067688
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00075_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.999853253364563
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00088_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9497557878494263
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00090_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.657501220703125
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00093_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9991714954376221
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00094_1.jpg,eosinophil,erythroblast,unfamiliar,0.820789635181427
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00095_1.jpg,eosinophil,erythroblast,unfamiliar,0.9970390796661377
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00096_1.jpg,eosinophil,erythroblast,unfamiliar,0.9999903440475464
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00097_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9794272184371948
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00100_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.5383041501045227
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00101_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9487204551696777
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00107_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.995899498462677
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00108_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.748595654964447
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00109_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9776136875152588
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00114_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9988797307014465
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00123_1.jpg,eosinophil,erythroblast,unfamiliar,0.5901011824607849
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00133_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.61947101354599
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00135_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9967053532600403
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00137_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.998084545135498
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00139_1.jpg,eosinophil,erythroblast,unfamiliar,0.965796947479248
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00141_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.3899202346801758
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00143_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999788999557495
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00144_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999994039535522
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00147_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9869595170021057
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00149_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999936819076538
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00152_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999876022338867
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00154_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.99983811378479
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00158_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9800682663917542
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00160_1.jpg,eosinophil,erythroblast,unfamiliar,0.9018614888191223
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00162_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.7513165473937988
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00165_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.7964324355125427
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00177_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999980926513672
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00180_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9997888207435608
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00183_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9761665463447571
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00184_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999986886978149
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00187_1.jpg,eosinophil,erythroblast,unfamiliar,0.6626030802726746
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00200_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9984163045883179
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00202_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9990537762641907
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00204_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9992250204086304
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00208_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999998807907104
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00219_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9998328685760498
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00220_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999980926513672
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00226_1.jpg,eosinophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00228_1.jpg,eosinophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00236_1.jpg,eosinophil,erythroblast,unfamiliar,0.5342837572097778
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00240_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9963605999946594
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00251_1.jpg,eosinophil,erythroblast,unfamiliar,0.6039048433303833
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00253_1.jpg,eosinophil,erythroblast,unfamiliar,0.9999967813491821
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00259_1.jpg,eosinophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00261_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999147653579712
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00265_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999576807022095
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00269_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9742975234985352
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00271_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9998205304145813
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00274_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999984502792358
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00277_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9999121427536011
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00284_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9975020289421082
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00289_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9991135001182556
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00290_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9993473887443542
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00292_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9179984331130981
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00299_1.jpg,eosinophil,monocyte,unfamiliar,0.6065040826797485
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00319_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9950703382492065
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00344_1.jpg,eosinophil,monocyte,unfamiliar,0.5894066095352173
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00345_1.jpg,eosinophil,erythroblast,unfamiliar,0.9067260026931763
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00352_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.999640941619873
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00353_1.jpg,eosinophil,erythroblast,unfamiliar,0.9989475607872009
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00359_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9983121156692505
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00376_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9883833527565002
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00383_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9869511127471924
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00387_1.jpg,eosinophil,erythroblast,unfamiliar,0.9380114078521729
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Eosinophil/BloodImage_00410_1.jpg,eosinophil,immature_granulocyte,unfamiliar,0.9537026286125183
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00020_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9992020726203918
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00021_1.jpg,lymphocyte,erythroblast,unfamiliar,0.9631035923957825
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00037_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.832802414894104
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00038_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9560277462005615
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00047_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9999699592590332
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00054_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9975159168243408
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00055_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9999997615814209
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00076_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9998713731765747
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00089_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.8219518661499023
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00099_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9992812275886536
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00111_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9955011010169983
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00120_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9989925026893616
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00134_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.8703779578208923
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00140_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9985287189483643
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00148_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.8887392282485962
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00157_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.8257136940956116
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00191_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00206_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9999847412109375
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00211_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9999997615814209
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00217_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9999997615814209
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00224_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9999948740005493
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00229_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9999754428863525
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00233_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9999997615814209
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00241_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9999998807907104
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00254_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9937403202056885
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00258_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9997071623802185
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00264_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.843123733997345
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00270_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9997555613517761
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00275_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9951114058494568
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00283_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.999998927116394
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00305_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9999984502792358
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00347_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.7195902466773987
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Lymphocyte/BloodImage_00356_1.jpg,lymphocyte,immature_granulocyte,unfamiliar,0.9999725818634033
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00015_1.jpg,monocyte,erythroblast,unfamiliar,0.9998983144760132
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00040_1.jpg,monocyte,erythroblast,unfamiliar,0.9998893737792969
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00083_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.7600913643836975
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00104_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.6224979162216187
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00110_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.4837277829647064
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00127_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.9958372116088867
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00196_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.9994316697120667
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00225_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.9996399879455566
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00232_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.9997701048851013
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00255_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.9996945858001709
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00262_1.jpg,monocyte,erythroblast,unfamiliar,0.9790219664573669
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00278_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.9999061822891235
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00281_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.46319082379341125
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00291_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.8678515553474426
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00309_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.876622200012207
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00312_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.9629242420196533
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00318_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.8734232187271118
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00323_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.9999860525131226
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00335_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.5669752359390259
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Monocyte/BloodImage_00342_1.jpg,monocyte,immature_granulocyte,unfamiliar,0.92219078540802
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00000_1.jpg,neutrophil,erythroblast,unfamiliar,0.997344434261322
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00001_1.jpg,neutrophil,erythroblast,unfamiliar,0.9984241724014282
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00002_1.jpg,neutrophil,erythroblast,unfamiliar,0.9999995231628418
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00003_1.jpg,neutrophil,erythroblast,unfamiliar,0.999950647354126
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00004_1.jpg,neutrophil,erythroblast,unfamiliar,0.9392296075820923
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00005_1.jpg,neutrophil,erythroblast,unfamiliar,0.996184766292572
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00006_1.jpg,neutrophil,erythroblast,unfamiliar,0.9999200105667114
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00007_1.jpg,neutrophil,erythroblast,unfamiliar,0.9978657364845276
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00011_1.jpg,neutrophil,erythroblast,unfamiliar,0.7694568634033203
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00012_1.jpg,neutrophil,monocyte,unfamiliar,0.554256796836853
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00013_1.jpg,neutrophil,erythroblast,unfamiliar,0.8590863347053528
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00014_1.jpg,neutrophil,erythroblast,unfamiliar,0.9765878319740295
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00016_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.8369112014770508
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00018_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.8847411870956421
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00019_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.7818210124969482
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00022_1.jpg,neutrophil,erythroblast,unfamiliar,0.9615613222122192
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00024_1.jpg,neutrophil,erythroblast,unfamiliar,0.9917318224906921
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00029_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9989050626754761
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00030_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9890764951705933
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00032_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9993687272071838
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00033_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.8243229389190674
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00035_1.jpg,neutrophil,erythroblast,unfamiliar,0.9226590991020203
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00039_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9886332154273987
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00046_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9995556473731995
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00050_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.7287110686302185
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00052_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998632669448853
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00053_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999260902404785
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00063_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.8957957029342651
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00066_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998966455459595
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00067_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9994627833366394
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00071_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9455786943435669
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00072_1.jpg,neutrophil,erythroblast,unfamiliar,0.50958251953125
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00073_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9984471201896667
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00074_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999860525131226
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00077_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9993563294410706
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00078_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998925924301147
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00079_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999886751174927
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00081_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9038995504379272
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00082_1.jpg,neutrophil,erythroblast,unfamiliar,0.9340751767158508
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00086_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999998807907104
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00087_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9758185148239136
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00091_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998403787612915
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00092_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999942779541016
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00098_1.jpg,neutrophil,monocyte,unfamiliar,0.5867886543273926
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00106_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998952150344849
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00112_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.999966025352478
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00113_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.999841570854187
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00115_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9864789843559265
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00124_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9420111179351807
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00125_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999841451644897
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00126_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.998807430267334
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00130_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998615980148315
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00136_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9907140731811523
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00142_1.jpg,neutrophil,erythroblast,unfamiliar,0.602053165435791
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00145_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9881540536880493
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00150_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999970197677612
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00156_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999818801879883
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00159_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999678134918213
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00161_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00163_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999908208847046
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00164_1.jpg,neutrophil,erythroblast,unfamiliar,0.92867511510849
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00166_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9997859597206116
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00167_1.jpg,neutrophil,monocyte,unfamiliar,0.7023780345916748
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00168_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998844861984253
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00169_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999995231628418
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00170_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.52495938539505
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00172_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999234676361084
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00174_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998376369476318
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00175_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9968468546867371
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00178_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9993313550949097
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00179_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999315738677979
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00182_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999967813491821
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00189_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999585151672363
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00190_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999172687530518
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00192_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00197_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00198_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9918761253356934
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00199_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00201_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999115467071533
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00203_1.jpg,neutrophil,monocyte,unfamiliar,0.5281084775924683
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00205_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.999998927116394
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00207_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9886876344680786
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00209_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00210_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999955892562866
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00212_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9996482133865356
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00214_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00215_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999996423721313
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00216_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999998807907104
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00218_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999967813491821
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00221_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999959468841553
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00222_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00223_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999873638153076
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00227_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9846737384796143
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00230_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999974966049194
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00231_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.8567343354225159
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00234_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999847412109375
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00235_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9975330829620361
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00237_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9985914826393127
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00239_1.jpg,neutrophil,monocyte,unfamiliar,0.5655784606933594
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00243_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999680519104004
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00244_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00245_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999957084655762
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00246_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9820414781570435
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00247_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9972297549247742
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00248_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9859088063240051
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00250_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9922812581062317
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00252_1.jpg,neutrophil,monocyte,unfamiliar,0.9837862849235535
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00256_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9764605760574341
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00257_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999486207962036
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00260_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9512003064155579
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00263_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9963427186012268
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00266_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00267_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999998807907104
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00268_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9652940630912781
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00272_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999798536300659
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00273_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999631643295288
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00276_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00279_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998825788497925
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00280_1.jpg,neutrophil,erythroblast,unfamiliar,0.5921061038970947
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00282_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9976782202720642
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00285_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9818036556243896
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00287_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.999921441078186
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00288_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998148083686829
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00293_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999991655349731
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00294_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999909400939941
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00295_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999994039535522
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00296_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999998807907104
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00297_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9611414670944214
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00298_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999834299087524
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00300_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999849796295166
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00301_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00302_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9993196725845337
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00303_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999986886978149
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00304_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999985694885254
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00307_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.999932050704956
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00308_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9980714917182922
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00310_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00311_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999895095825195
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00314_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999991655349731
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00315_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9534503817558289
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00317_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998975992202759
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00320_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00322_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999814033508301
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00324_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999997615814209
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00325_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999979734420776
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00326_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9786586761474609
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00327_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9997327923774719
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00329_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999926090240479
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00330_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9769724607467651
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00331_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999995231628418
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00332_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9826382994651794
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00333_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998561143875122
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00334_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9995638728141785
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00336_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999997615814209
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00337_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9929487705230713
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00338_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.995826780796051
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00339_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9870202541351318
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00340_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9274449348449707
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00341_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999997615814209
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00343_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9956701993942261
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00346_1.jpg,neutrophil,monocyte,unfamiliar,0.7341241836547852
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00348_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999563694000244
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00349_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.7208815813064575
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00350_1.jpg,neutrophil,monocyte,unfamiliar,0.5389842391014099
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00351_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999992847442627
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00354_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998064637184143
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00355_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999995231628418
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00357_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999998807907104
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00360_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9988429546356201
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00361_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999996423721313
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00362_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9993149042129517
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00364_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999793767929077
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00365_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999998807907104
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00366_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.999946117401123
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00367_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999998807907104
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00368_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999980926513672
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00369_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00370_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999600648880005
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00371_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999951124191284
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00372_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999887943267822
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00375_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999998807907104
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00377_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9997667670249939
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00378_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.7695066928863525
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00379_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9939436316490173
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00381_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999978542327881
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00382_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999991655349731
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00384_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999933242797852
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00385_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.8296533226966858
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00386_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9957173466682434
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00388_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999940395355225
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00389_1.jpg,neutrophil,immature_granulocyte,unfamiliar,1.0
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00390_1.jpg,neutrophil,monocyte,unfamiliar,0.9742728471755981
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00391_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9964702129364014
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00392_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999878406524658
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00393_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9998501539230347
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00395_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999978542327881
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00396_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9986938834190369
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00397_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9166120290756226
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00398_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999867677688599
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00400_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999856948852539
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00402_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999955892562866
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00403_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999949932098389
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00404_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999850988388062
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00405_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999403953552246
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00407_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999592304229736
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00408_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999724626541138
+bccd,/home/claude/rawdata/bccd_labeled/BCCD_cropped/Neutrophil/BloodImage_00409_1.jpg,neutrophil,immature_granulocyte,unfamiliar,0.9999992847442627
+jtsc,/home/claude/rawdata/zheng/Dataset 1/001.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/002.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/003.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/004.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/005.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/006.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/007.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/008.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/009.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/010.bmp,neutrophil,erythroblast,unfamiliar,0.9999992847442627
+jtsc,/home/claude/rawdata/zheng/Dataset 1/011.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/012.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/013.bmp,monocyte,erythroblast,unfamiliar,0.999984622001648
+jtsc,/home/claude/rawdata/zheng/Dataset 1/014.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/015.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/016.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/017.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/018.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/019.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/020.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/021.bmp,monocyte,erythroblast,unfamiliar,0.9999991655349731
+jtsc,/home/claude/rawdata/zheng/Dataset 1/022.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/023.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/024.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/025.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/026.bmp,monocyte,erythroblast,unfamiliar,0.9999991655349731
+jtsc,/home/claude/rawdata/zheng/Dataset 1/027.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/028.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/029.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/030.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/031.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/032.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/033.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/034.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/035.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/036.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/037.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/038.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/039.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/040.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/041.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/042.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/043.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/044.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/045.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/046.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/047.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/048.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/049.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/050.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/051.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/052.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/053.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/054.bmp,monocyte,erythroblast,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/055.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/056.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/057.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/058.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/059.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/060.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/061.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/062.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/063.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/064.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/065.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/066.bmp,eosinophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/067.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/068.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/069.bmp,monocyte,erythroblast,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/070.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/071.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/072.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/073.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/074.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/075.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/076.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/077.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/078.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/079.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/080.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/081.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/082.bmp,monocyte,erythroblast,unfamiliar,0.9144092202186584
+jtsc,/home/claude/rawdata/zheng/Dataset 1/083.bmp,monocyte,immature_granulocyte,unfamiliar,0.9842648506164551
+jtsc,/home/claude/rawdata/zheng/Dataset 1/084.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/085.bmp,monocyte,erythroblast,unfamiliar,0.9999996423721313
+jtsc,/home/claude/rawdata/zheng/Dataset 1/086.bmp,monocyte,erythroblast,unfamiliar,0.999998927116394
+jtsc,/home/claude/rawdata/zheng/Dataset 1/087.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/088.bmp,monocyte,erythroblast,unfamiliar,0.999913215637207
+jtsc,/home/claude/rawdata/zheng/Dataset 1/089.bmp,monocyte,erythroblast,unfamiliar,0.9996540546417236
+jtsc,/home/claude/rawdata/zheng/Dataset 1/090.bmp,monocyte,erythroblast,unfamiliar,0.9994179010391235
+jtsc,/home/claude/rawdata/zheng/Dataset 1/091.bmp,monocyte,erythroblast,unfamiliar,0.9921545386314392
+jtsc,/home/claude/rawdata/zheng/Dataset 1/092.bmp,monocyte,erythroblast,unfamiliar,0.9999113082885742
+jtsc,/home/claude/rawdata/zheng/Dataset 1/093.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/094.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/095.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/096.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/097.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/098.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/099.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/100.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/101.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/102.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/103.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/104.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/105.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/106.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/107.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/108.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/109.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/110.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/111.bmp,lymphocyte,erythroblast,unfamiliar,0.9999868869781494
+jtsc,/home/claude/rawdata/zheng/Dataset 1/112.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/113.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/114.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/115.bmp,monocyte,erythroblast,unfamiliar,0.9999995231628418
+jtsc,/home/claude/rawdata/zheng/Dataset 1/116.bmp,monocyte,erythroblast,unfamiliar,0.9999997615814209
+jtsc,/home/claude/rawdata/zheng/Dataset 1/117.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/118.bmp,monocyte,erythroblast,unfamiliar,0.9999997615814209
+jtsc,/home/claude/rawdata/zheng/Dataset 1/119.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/120.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/121.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/122.bmp,monocyte,erythroblast,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/123.bmp,monocyte,erythroblast,unfamiliar,0.999153733253479
+jtsc,/home/claude/rawdata/zheng/Dataset 1/124.bmp,monocyte,erythroblast,unfamiliar,0.9999996423721313
+jtsc,/home/claude/rawdata/zheng/Dataset 1/125.bmp,monocyte,erythroblast,unfamiliar,0.9999994039535522
+jtsc,/home/claude/rawdata/zheng/Dataset 1/126.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/127.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/128.bmp,monocyte,erythroblast,unfamiliar,0.999998927116394
+jtsc,/home/claude/rawdata/zheng/Dataset 1/129.bmp,monocyte,erythroblast,unfamiliar,0.9999732971191406
+jtsc,/home/claude/rawdata/zheng/Dataset 1/130.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/131.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/132.bmp,eosinophil,erythroblast,unfamiliar,0.9999996423721313
+jtsc,/home/claude/rawdata/zheng/Dataset 1/133.bmp,eosinophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/134.bmp,eosinophil,erythroblast,unfamiliar,0.999998927116394
+jtsc,/home/claude/rawdata/zheng/Dataset 1/135.bmp,neutrophil,erythroblast,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/136.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/137.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/138.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/139.bmp,lymphocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/140.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/141.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/142.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/143.bmp,monocyte,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/144.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/145.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/146.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/147.bmp,neutrophil,erythroblast,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/148.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/149.bmp,eosinophil,erythroblast,unfamiliar,0.9999898672103882
+jtsc,/home/claude/rawdata/zheng/Dataset 1/150.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/151.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/152.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/153.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/154.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/155.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/156.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/157.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/158.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/159.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/160.bmp,neutrophil,erythroblast,unfamiliar,0.9999994039535522
+jtsc,/home/claude/rawdata/zheng/Dataset 1/161.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/162.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/163.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/164.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/165.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/166.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/167.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/168.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/169.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/170.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/171.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/172.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/173.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/174.bmp,neutrophil,erythroblast,unfamiliar,0.9999997615814209
+jtsc,/home/claude/rawdata/zheng/Dataset 1/175.bmp,neutrophil,erythroblast,unfamiliar,0.9999618530273438
+jtsc,/home/claude/rawdata/zheng/Dataset 1/176.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/177.bmp,neutrophil,erythroblast,unfamiliar,0.9999984502792358
+jtsc,/home/claude/rawdata/zheng/Dataset 1/178.bmp,neutrophil,erythroblast,unfamiliar,0.9999856948852539
+jtsc,/home/claude/rawdata/zheng/Dataset 1/179.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/180.bmp,neutrophil,erythroblast,unfamiliar,0.9999990463256836
+jtsc,/home/claude/rawdata/zheng/Dataset 1/181.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/182.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/183.bmp,neutrophil,erythroblast,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/184.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/185.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/186.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/187.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/188.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/189.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/190.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/191.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/192.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/193.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/194.bmp,neutrophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/195.bmp,eosinophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/196.bmp,eosinophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/197.bmp,eosinophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/198.bmp,eosinophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/199.bmp,eosinophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/200.bmp,eosinophil,erythroblast,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/201.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/202.bmp,monocyte,immature_granulocyte,unfamiliar,0.9953599572181702
+jtsc,/home/claude/rawdata/zheng/Dataset 1/203.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/204.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/205.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/206.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/207.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/208.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/209.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/210.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/211.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/212.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/213.bmp,neutrophil,eosinophil,unfamiliar,0.9999996423721313
+jtsc,/home/claude/rawdata/zheng/Dataset 1/214.bmp,neutrophil,eosinophil,unfamiliar,0.9999997615814209
+jtsc,/home/claude/rawdata/zheng/Dataset 1/215.bmp,neutrophil,eosinophil,unfamiliar,0.9999994039535522
+jtsc,/home/claude/rawdata/zheng/Dataset 1/216.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/217.bmp,monocyte,immature_granulocyte,unfamiliar,0.668541669845581
+jtsc,/home/claude/rawdata/zheng/Dataset 1/218.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/219.bmp,neutrophil,eosinophil,unfamiliar,0.9923807978630066
+jtsc,/home/claude/rawdata/zheng/Dataset 1/220.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/221.bmp,monocyte,immature_granulocyte,unfamiliar,0.9322448968887329
+jtsc,/home/claude/rawdata/zheng/Dataset 1/222.bmp,monocyte,immature_granulocyte,unfamiliar,0.8700879812240601
+jtsc,/home/claude/rawdata/zheng/Dataset 1/223.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/224.bmp,monocyte,monocyte,unfamiliar,0.7838321924209595
+jtsc,/home/claude/rawdata/zheng/Dataset 1/225.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/226.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/227.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/228.bmp,monocyte,lymphocyte,unfamiliar,0.8394538164138794
+jtsc,/home/claude/rawdata/zheng/Dataset 1/229.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/230.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/231.bmp,neutrophil,eosinophil,unfamiliar,0.9999970197677612
+jtsc,/home/claude/rawdata/zheng/Dataset 1/232.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/233.bmp,neutrophil,eosinophil,unfamiliar,0.9999996423721313
+jtsc,/home/claude/rawdata/zheng/Dataset 1/234.bmp,eosinophil,eosinophil,unfamiliar,0.9997621178627014
+jtsc,/home/claude/rawdata/zheng/Dataset 1/235.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/236.bmp,neutrophil,eosinophil,unfamiliar,0.9999809265136719
+jtsc,/home/claude/rawdata/zheng/Dataset 1/237.bmp,eosinophil,eosinophil,unfamiliar,0.9999791383743286
+jtsc,/home/claude/rawdata/zheng/Dataset 1/238.bmp,neutrophil,eosinophil,unfamiliar,0.9999990463256836
+jtsc,/home/claude/rawdata/zheng/Dataset 1/239.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/240.bmp,monocyte,lymphocyte,unfamiliar,0.8854286074638367
+jtsc,/home/claude/rawdata/zheng/Dataset 1/241.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/242.bmp,neutrophil,eosinophil,unfamiliar,0.9998366832733154
+jtsc,/home/claude/rawdata/zheng/Dataset 1/243.bmp,neutrophil,eosinophil,unfamiliar,0.9999911785125732
+jtsc,/home/claude/rawdata/zheng/Dataset 1/244.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/245.bmp,neutrophil,eosinophil,unfamiliar,0.9999992847442627
+jtsc,/home/claude/rawdata/zheng/Dataset 1/246.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/247.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/248.bmp,neutrophil,eosinophil,unfamiliar,0.9999994039535522
+jtsc,/home/claude/rawdata/zheng/Dataset 1/249.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/250.bmp,neutrophil,eosinophil,unfamiliar,0.9999973773956299
+jtsc,/home/claude/rawdata/zheng/Dataset 1/251.bmp,neutrophil,eosinophil,unfamiliar,0.999998927116394
+jtsc,/home/claude/rawdata/zheng/Dataset 1/252.bmp,neutrophil,eosinophil,unfamiliar,0.9999995231628418
+jtsc,/home/claude/rawdata/zheng/Dataset 1/253.bmp,neutrophil,eosinophil,unfamiliar,0.999993085861206
+jtsc,/home/claude/rawdata/zheng/Dataset 1/254.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/255.bmp,neutrophil,eosinophil,unfamiliar,0.9999992847442627
+jtsc,/home/claude/rawdata/zheng/Dataset 1/256.bmp,neutrophil,eosinophil,unfamiliar,0.9999997615814209
+jtsc,/home/claude/rawdata/zheng/Dataset 1/257.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/258.bmp,neutrophil,eosinophil,unfamiliar,0.9999984502792358
+jtsc,/home/claude/rawdata/zheng/Dataset 1/259.bmp,neutrophil,eosinophil,unfamiliar,0.9999986886978149
+jtsc,/home/claude/rawdata/zheng/Dataset 1/260.bmp,eosinophil,eosinophil,unfamiliar,0.9999709129333496
+jtsc,/home/claude/rawdata/zheng/Dataset 1/261.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/262.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/263.bmp,monocyte,monocyte,unfamiliar,0.9879916310310364
+jtsc,/home/claude/rawdata/zheng/Dataset 1/264.bmp,neutrophil,eosinophil,unfamiliar,0.9999996423721313
+jtsc,/home/claude/rawdata/zheng/Dataset 1/265.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/266.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/267.bmp,neutrophil,eosinophil,unfamiliar,0.9999983310699463
+jtsc,/home/claude/rawdata/zheng/Dataset 1/268.bmp,monocyte,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/269.bmp,neutrophil,monocyte,unfamiliar,0.841310441493988
+jtsc,/home/claude/rawdata/zheng/Dataset 1/270.bmp,neutrophil,eosinophil,unfamiliar,0.9999997615814209
+jtsc,/home/claude/rawdata/zheng/Dataset 1/271.bmp,neutrophil,eosinophil,unfamiliar,0.9999972581863403
+jtsc,/home/claude/rawdata/zheng/Dataset 1/272.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/273.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/274.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/275.bmp,eosinophil,eosinophil,unfamiliar,0.9999995231628418
+jtsc,/home/claude/rawdata/zheng/Dataset 1/276.bmp,neutrophil,eosinophil,unfamiliar,0.9999983310699463
+jtsc,/home/claude/rawdata/zheng/Dataset 1/277.bmp,neutrophil,eosinophil,unfamiliar,0.9999988079071045
+jtsc,/home/claude/rawdata/zheng/Dataset 1/278.bmp,neutrophil,eosinophil,unfamiliar,1.0
+jtsc,/home/claude/rawdata/zheng/Dataset 1/279.bmp,neutrophil,eosinophil,unfamiliar,0.9999945163726807
+jtsc,/home/claude/rawdata/zheng/Dataset 1/280.bmp,neutrophil,eosinophil,unfamiliar,0.9999561309814453
+jtsc,/home/claude/rawdata/zheng/Dataset 1/281.bmp,neutrophil,eosinophil,unfamiliar,0.9999618530273438
+jtsc,/home/claude/rawdata/zheng/Dataset 1/282.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/283.bmp,neutrophil,eosinophil,unfamiliar,0.9999991655349731
+jtsc,/home/claude/rawdata/zheng/Dataset 1/284.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+jtsc,/home/claude/rawdata/zheng/Dataset 1/285.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.9989365935325623
+jtsc,/home/claude/rawdata/zheng/Dataset 1/286.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.7329394817352295
+jtsc,/home/claude/rawdata/zheng/Dataset 1/287.bmp,lymphocyte,erythroblast,unfamiliar,0.9799220561981201
+jtsc,/home/claude/rawdata/zheng/Dataset 1/288.bmp,lymphocyte,erythroblast,unfamiliar,0.9967315196990967
+jtsc,/home/claude/rawdata/zheng/Dataset 1/289.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.9702825546264648
+jtsc,/home/claude/rawdata/zheng/Dataset 1/290.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.9999099969863892
+jtsc,/home/claude/rawdata/zheng/Dataset 1/291.bmp,basophil,immature_granulocyte,unfamiliar,0.9981544613838196
+jtsc,/home/claude/rawdata/zheng/Dataset 1/292.bmp,eosinophil,eosinophil,unfamiliar,0.997654378414154
+jtsc,/home/claude/rawdata/zheng/Dataset 1/293.bmp,eosinophil,immature_granulocyte,unfamiliar,0.9995032548904419
+jtsc,/home/claude/rawdata/zheng/Dataset 1/294.bmp,eosinophil,eosinophil,unfamiliar,0.9945833086967468
+jtsc,/home/claude/rawdata/zheng/Dataset 1/295.bmp,eosinophil,eosinophil,unfamiliar,0.7545339465141296
+jtsc,/home/claude/rawdata/zheng/Dataset 1/296.bmp,eosinophil,immature_granulocyte,unfamiliar,0.9517996311187744
+jtsc,/home/claude/rawdata/zheng/Dataset 1/297.bmp,eosinophil,immature_granulocyte,unfamiliar,0.6295126080513
+jtsc,/home/claude/rawdata/zheng/Dataset 1/298.bmp,eosinophil,eosinophil,unfamiliar,0.9438396692276001
+jtsc,/home/claude/rawdata/zheng/Dataset 1/299.bmp,neutrophil,eosinophil,unfamiliar,0.9999719858169556
+jtsc,/home/claude/rawdata/zheng/Dataset 1/300.bmp,neutrophil,eosinophil,unfamiliar,0.9999998807907104
+cvblog,/home/claude/rawdata/zheng/Dataset 2/001.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.9993085861206055
+cvblog,/home/claude/rawdata/zheng/Dataset 2/002.bmp,lymphocyte,monocyte,unfamiliar,0.5184329748153687
+cvblog,/home/claude/rawdata/zheng/Dataset 2/003.bmp,neutrophil,immature_granulocyte,confident,0.9992720484733582
+cvblog,/home/claude/rawdata/zheng/Dataset 2/004.bmp,neutrophil,neutrophil,confident,0.997401237487793
+cvblog,/home/claude/rawdata/zheng/Dataset 2/005.bmp,neutrophil,neutrophil,unfamiliar,0.8816488981246948
+cvblog,/home/claude/rawdata/zheng/Dataset 2/006.bmp,neutrophil,neutrophil,confident,0.9848273992538452
+cvblog,/home/claude/rawdata/zheng/Dataset 2/007.bmp,eosinophil,eosinophil,unfamiliar,0.8603993654251099
+cvblog,/home/claude/rawdata/zheng/Dataset 2/008.bmp,lymphocyte,immature_granulocyte,confident,0.8548406958580017
+cvblog,/home/claude/rawdata/zheng/Dataset 2/009.bmp,lymphocyte,basophil,unfamiliar,0.9265834093093872
+cvblog,/home/claude/rawdata/zheng/Dataset 2/010.bmp,lymphocyte,monocyte,review,0.7209879755973816
+cvblog,/home/claude/rawdata/zheng/Dataset 2/011.bmp,monocyte,basophil,unfamiliar,0.9776236414909363
+cvblog,/home/claude/rawdata/zheng/Dataset 2/012.bmp,monocyte,monocyte,confident,0.8792051672935486
+cvblog,/home/claude/rawdata/zheng/Dataset 2/013.bmp,lymphocyte,monocyte,confident,0.9873743653297424
+cvblog,/home/claude/rawdata/zheng/Dataset 2/014.bmp,lymphocyte,monocyte,confident,0.9897767305374146
+cvblog,/home/claude/rawdata/zheng/Dataset 2/015.bmp,lymphocyte,immature_granulocyte,review,0.5237736105918884
+cvblog,/home/claude/rawdata/zheng/Dataset 2/016.bmp,monocyte,monocyte,confident,0.9998134970664978
+cvblog,/home/claude/rawdata/zheng/Dataset 2/017.bmp,monocyte,monocyte,confident,0.9987465143203735
+cvblog,/home/claude/rawdata/zheng/Dataset 2/018.bmp,monocyte,monocyte,unfamiliar,0.9061481952667236
+cvblog,/home/claude/rawdata/zheng/Dataset 2/019.bmp,neutrophil,basophil,unfamiliar,0.8334549069404602
+cvblog,/home/claude/rawdata/zheng/Dataset 2/020.bmp,neutrophil,neutrophil,confident,0.9936756491661072
+cvblog,/home/claude/rawdata/zheng/Dataset 2/021.bmp,neutrophil,immature_granulocyte,confident,0.8088889718055725
+cvblog,/home/claude/rawdata/zheng/Dataset 2/022.bmp,monocyte,monocyte,unfamiliar,0.9031798243522644
+cvblog,/home/claude/rawdata/zheng/Dataset 2/023.bmp,lymphocyte,erythroblast,unfamiliar,0.99115389585495
+cvblog,/home/claude/rawdata/zheng/Dataset 2/024.bmp,eosinophil,eosinophil,unfamiliar,0.9940029978752136
+cvblog,/home/claude/rawdata/zheng/Dataset 2/025.bmp,neutrophil,eosinophil,unfamiliar,0.9938054084777832
+cvblog,/home/claude/rawdata/zheng/Dataset 2/026.bmp,neutrophil,eosinophil,unfamiliar,0.9997109770774841
+cvblog,/home/claude/rawdata/zheng/Dataset 2/027.bmp,neutrophil,eosinophil,unfamiliar,0.9993091821670532
+cvblog,/home/claude/rawdata/zheng/Dataset 2/028.bmp,neutrophil,eosinophil,unfamiliar,0.999460756778717
+cvblog,/home/claude/rawdata/zheng/Dataset 2/029.bmp,neutrophil,eosinophil,unfamiliar,0.9997794032096863
+cvblog,/home/claude/rawdata/zheng/Dataset 2/030.bmp,neutrophil,neutrophil,confident,0.9995720982551575
+cvblog,/home/claude/rawdata/zheng/Dataset 2/031.bmp,monocyte,monocyte,unfamiliar,0.991709291934967
+cvblog,/home/claude/rawdata/zheng/Dataset 2/032.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.6503665447235107
+cvblog,/home/claude/rawdata/zheng/Dataset 2/033.bmp,lymphocyte,erythroblast,unfamiliar,0.9997771382331848
+cvblog,/home/claude/rawdata/zheng/Dataset 2/034.bmp,lymphocyte,monocyte,unfamiliar,0.7343171834945679
+cvblog,/home/claude/rawdata/zheng/Dataset 2/035.bmp,monocyte,immature_granulocyte,unfamiliar,0.9999998807907104
+cvblog,/home/claude/rawdata/zheng/Dataset 2/036.bmp,monocyte,monocyte,unfamiliar,0.8837918043136597
+cvblog,/home/claude/rawdata/zheng/Dataset 2/037.bmp,monocyte,immature_granulocyte,unfamiliar,0.6022387146949768
+cvblog,/home/claude/rawdata/zheng/Dataset 2/038.bmp,lymphocyte,immature_granulocyte,review,0.7732903957366943
+cvblog,/home/claude/rawdata/zheng/Dataset 2/039.bmp,lymphocyte,erythroblast,review,0.6321662664413452
+cvblog,/home/claude/rawdata/zheng/Dataset 2/040.bmp,lymphocyte,immature_granulocyte,review,0.5653835535049438
+cvblog,/home/claude/rawdata/zheng/Dataset 2/041.bmp,monocyte,monocyte,unfamiliar,0.8539136052131653
+cvblog,/home/claude/rawdata/zheng/Dataset 2/042.bmp,monocyte,monocyte,unfamiliar,0.9771184921264648
+cvblog,/home/claude/rawdata/zheng/Dataset 2/043.bmp,neutrophil,eosinophil,unfamiliar,0.968052089214325
+cvblog,/home/claude/rawdata/zheng/Dataset 2/044.bmp,neutrophil,eosinophil,unfamiliar,0.7975841164588928
+cvblog,/home/claude/rawdata/zheng/Dataset 2/045.bmp,monocyte,monocyte,unfamiliar,0.864637553691864
+cvblog,/home/claude/rawdata/zheng/Dataset 2/046.bmp,monocyte,monocyte,review,0.7857990860939026
+cvblog,/home/claude/rawdata/zheng/Dataset 2/047.bmp,monocyte,immature_granulocyte,confident,0.9999998807907104
+cvblog,/home/claude/rawdata/zheng/Dataset 2/048.bmp,lymphocyte,eosinophil,unfamiliar,0.9657643437385559
+cvblog,/home/claude/rawdata/zheng/Dataset 2/049.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.9975784420967102
+cvblog,/home/claude/rawdata/zheng/Dataset 2/050.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.9913149476051331
+cvblog,/home/claude/rawdata/zheng/Dataset 2/051.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.9479824900627136
+cvblog,/home/claude/rawdata/zheng/Dataset 2/052.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.9748402833938599
+cvblog,/home/claude/rawdata/zheng/Dataset 2/053.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.7848585247993469
+cvblog,/home/claude/rawdata/zheng/Dataset 2/054.bmp,lymphocyte,monocyte,unfamiliar,0.5414721965789795
+cvblog,/home/claude/rawdata/zheng/Dataset 2/055.bmp,lymphocyte,monocyte,unfamiliar,0.6386821866035461
+cvblog,/home/claude/rawdata/zheng/Dataset 2/056.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.8451707363128662
+cvblog,/home/claude/rawdata/zheng/Dataset 2/057.bmp,lymphocyte,monocyte,unfamiliar,0.5884783864021301
+cvblog,/home/claude/rawdata/zheng/Dataset 2/058.bmp,lymphocyte,erythroblast,unfamiliar,0.7064393162727356
+cvblog,/home/claude/rawdata/zheng/Dataset 2/059.bmp,lymphocyte,monocyte,unfamiliar,0.9730868339538574
+cvblog,/home/claude/rawdata/zheng/Dataset 2/060.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.999582827091217
+cvblog,/home/claude/rawdata/zheng/Dataset 2/061.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.999884843826294
+cvblog,/home/claude/rawdata/zheng/Dataset 2/062.bmp,lymphocyte,immature_granulocyte,confident,0.999201238155365
+cvblog,/home/claude/rawdata/zheng/Dataset 2/063.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.972184419631958
+cvblog,/home/claude/rawdata/zheng/Dataset 2/064.bmp,neutrophil,immature_granulocyte,unfamiliar,0.9552816152572632
+cvblog,/home/claude/rawdata/zheng/Dataset 2/065.bmp,neutrophil,immature_granulocyte,confident,0.9988238215446472
+cvblog,/home/claude/rawdata/zheng/Dataset 2/066.bmp,neutrophil,monocyte,unfamiliar,0.9998774528503418
+cvblog,/home/claude/rawdata/zheng/Dataset 2/067.bmp,lymphocyte,immature_granulocyte,unfamiliar,0.5774617195129395
+cvblog,/home/claude/rawdata/zheng/Dataset 2/068.bmp,lymphocyte,neutrophil,unfamiliar,0.6636502146720886
+cvblog,/home/claude/rawdata/zheng/Dataset 2/069.bmp,neutrophil,monocyte,unfamiliar,0.9999791383743286
+cvblog,/home/claude/rawdata/zheng/Dataset 2/070.bmp,neutrophil,neutrophil,unfamiliar,0.8080993890762329
+cvblog,/home/claude/rawdata/zheng/Dataset 2/071.bmp,neutrophil,monocyte,unfamiliar,0.7657150030136108
+cvblog,/home/claude/rawdata/zheng/Dataset 2/072.bmp,eosinophil,eosinophil,unfamiliar,0.9998496770858765
+cvblog,/home/claude/rawdata/zheng/Dataset 2/073.bmp,eosinophil,basophil,unfamiliar,0.9900117516517639
+cvblog,/home/claude/rawdata/zheng/Dataset 2/074.bmp,neutrophil,monocyte,unfamiliar,0.9980205297470093
+cvblog,/home/claude/rawdata/zheng/Dataset 2/075.bmp,neutrophil,eosinophil,unfamiliar,0.9982941746711731
+cvblog,/home/claude/rawdata/zheng/Dataset 2/076.bmp,neutrophil,neutrophil,unfamiliar,0.9954276084899902
+cvblog,/home/claude/rawdata/zheng/Dataset 2/077.bmp,neutrophil,eosinophil,unfamiliar,0.8956073522567749
+cvblog,/home/claude/rawdata/zheng/Dataset 2/078.bmp,neutrophil,neutrophil,unfamiliar,0.6174386143684387
+cvblog,/home/claude/rawdata/zheng/Dataset 2/079.bmp,neutrophil,neutrophil,unfamiliar,0.9904766082763672
+cvblog,/home/claude/rawdata/zheng/Dataset 2/080.bmp,neutrophil,immature_granulocyte,unfamiliar,0.9994530081748962
+cvblog,/home/claude/rawdata/zheng/Dataset 2/081.bmp,neutrophil,neutrophil,confident,0.9881383776664734
+cvblog,/home/claude/rawdata/zheng/Dataset 2/082.bmp,neutrophil,neutrophil,unfamiliar,0.9999994039535522
+cvblog,/home/claude/rawdata/zheng/Dataset 2/083.bmp,neutrophil,neutrophil,unfamiliar,0.9991194605827332
+cvblog,/home/claude/rawdata/zheng/Dataset 2/084.bmp,eosinophil,eosinophil,unfamiliar,0.9998273849487305
+cvblog,/home/claude/rawdata/zheng/Dataset 2/085.bmp,eosinophil,monocyte,unfamiliar,0.9913640022277832
+cvblog,/home/claude/rawdata/zheng/Dataset 2/086.bmp,eosinophil,eosinophil,unfamiliar,0.9997515082359314
+cvblog,/home/claude/rawdata/zheng/Dataset 2/087.bmp,eosinophil,eosinophil,unfamiliar,0.9986186027526855
+cvblog,/home/claude/rawdata/zheng/Dataset 2/088.bmp,basophil,monocyte,unfamiliar,0.9167537093162537
+cvblog,/home/claude/rawdata/zheng/Dataset 2/089.bmp,basophil,immature_granulocyte,unfamiliar,0.9091033935546875
+cvblog,/home/claude/rawdata/zheng/Dataset 2/090.bmp,basophil,immature_granulocyte,unfamiliar,0.9155575037002563
+cvblog,/home/claude/rawdata/zheng/Dataset 2/091.bmp,lymphocyte,monocyte,unfamiliar,0.9969559907913208
+cvblog,/home/claude/rawdata/zheng/Dataset 2/092.bmp,lymphocyte,monocyte,unfamiliar,0.9998338222503662
+cvblog,/home/claude/rawdata/zheng/Dataset 2/093.bmp,lymphocyte,monocyte,unfamiliar,0.9932574033737183
+cvblog,/home/claude/rawdata/zheng/Dataset 2/094.bmp,lymphocyte,monocyte,unfamiliar,0.9940106272697449
+cvblog,/home/claude/rawdata/zheng/Dataset 2/095.bmp,eosinophil,eosinophil,unfamiliar,0.9880964756011963
+cvblog,/home/claude/rawdata/zheng/Dataset 2/096.bmp,eosinophil,monocyte,unfamiliar,0.9982938170433044
+cvblog,/home/claude/rawdata/zheng/Dataset 2/097.bmp,eosinophil,monocyte,unfamiliar,0.9661313891410828
+cvblog,/home/claude/rawdata/zheng/Dataset 2/098.bmp,eosinophil,monocyte,unfamiliar,0.8842148184776306
+cvblog,/home/claude/rawdata/zheng/Dataset 2/099.bmp,neutrophil,eosinophil,unfamiliar,0.9607353806495667
+cvblog,/home/claude/rawdata/zheng/Dataset 2/100.bmp,neutrophil,monocyte,unfamiliar,0.8957865834236145

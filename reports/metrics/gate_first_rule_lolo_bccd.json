@@ -1,0 +1,23 @@
+{
+  "threshold_p_white": 0.9,
+  "train_minutes": 10.5,
+  "validation_accuracy": 0.9976019184652278,
+  "white_cells_accepted": {
+    "pbc_test": 0.9981266391907081,
+    "bccd_test_half": 0.7457627118644068,
+    "bccd_all_unseen_lab": 0.7378917378917379,
+    "jtsc_test_half": 1.0,
+    "cvblog_test_half": 1.0
+  },
+  "smear_patches_without_white_cell": {
+    "accepted_as_white_cell": 0.0,
+    "called_smear_no_wbc": 0.9448198198198198
+  },
+  "not_smear_accepted_as_white_cell": {
+    "cifar_unseen_photos": 0.0,
+    "synthetic_new_seed": 0.0,
+    "pattern_type_never_trained": 0.005,
+    "scikit_image_photos": 0.0
+  },
+  "note": "First acceptance rule (let 99% of validation cells pass, clamped to 0.3-0.9), check trained without BCCD. Copied from the training log before the rule was replaced; the model file was overwritten by the rerun with the current rule."
+}
